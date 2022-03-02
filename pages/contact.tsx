@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import img1 from "../img/contact/1.png";
+import img1 from "../img/contact/1.gif";
 
 function Contact() {
   return (

@@ -5,10 +5,10 @@ import Image from "next/image";
 import img1 from "../img/work/icn1.png";
 import img2 from "../img/work/icn2.png";
 import img3 from "../img/work/icn3.png";
-import img4 from "../img/work/1.png";
-import img5 from "../img/work/2.png";
-import img6 from "../img/work/3.png";
-import img7 from "../img/work/4.png";
+import img4 from "../img/work/1.gif";
+import img5 from "../img/work/2.gif";
+import img6 from "../img/work/3.gif";
+import img7 from "../img/work/4.gif";
 import img8 from "../img/work/5.png";
 import img9 from "../img/work/6.png";
 import img10 from "../img/work/7.png";
@@ -30,8 +30,8 @@ function work() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="mt-20 lg:flex md:block mx-36 pb-16">
-          <div className="mb-14">
+        <div className="lg:px-28 md:px-5 py-16 lg:flex md:block">
+          <div className="ml-10 mt-16 mb-16 lg:w-[700px]">
             <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">COLLABORATIUM</p>
               <div className="leading-[40px]">
@@ -39,13 +39,7 @@ function work() {
                 <br />
                 <span className="font-[900] text-[48px]">berkolaborasi</span>
               </div>
-              <p className="font-[400] text-[18px] mt-5">
-                Komunikasi dan transparasi adalah pondasi dari hubungan
-                <br />
-                jangka panjang yang kita semua inginkan. Jadi,ayo ngobrol
-                <br />
-                dan gali lebih dalam lagi kebutuhan kamu!
-              </p>
+              <p className="font-[400] text-[18px] mt-5 lg:w-[500px]">Komunikasi dan transparasi adalah pondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi,ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!</p>
             </div>
             <span className="border-b-4 border-[#1DC0AD] px-5"></span>
             <div className="flex flex-wrap">
@@ -94,12 +88,9 @@ function work() {
             <Image src={img4} />
           </div>
         </div>
-        <div className="mt-20 lg:flex md:block px-36 py-40 background w-full">
-          <div className="mb-10">
-            <Image src={img5} />
-          </div>
-          <div className="lg:ml-10">
-            <div>
+        <div className="lg:px-28 md:px-16 py-16 lg:flex justify-between background">
+          <div className="ml-10 mt-16 mb-16 lg:w-[700px]">
+            <div className="md:order-last">
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">PASSION</p>
               <div className="leading-[40px]">
                 <span className="font-[300] text-[48px]">Kami membangun dengan</span>
@@ -157,9 +148,15 @@ function work() {
               </div>
             </div>
           </div>
+          <div className="md:order-last">
+            <Image src={img5} />
+          </div>
         </div>
         <div className="lg:flex md:block px-36 py-40">
           <div>
+            <div>
+              <Image src={img6} />
+            </div>
             <div className="mb-10">
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CLEAN CODE</p>
               <div className="leading-[40px]">
@@ -179,9 +176,6 @@ function work() {
                 panjang dan dapat selalu dikembangkan.
               </p>
             </div>
-          </div>
-          <div>
-            <Image src={img6} />
           </div>
         </div>
         <div className="lg:flex md:block px-36 py-40 background">

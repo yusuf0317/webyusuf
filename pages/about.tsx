@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import img1 from "../img/about/1.png";
+import img1 from "../img/about/1.gif";
 import img2 from "../img/work/icn1.png";
 import img3 from "../img/work/icn2.png";
 import img4 from "../img/home/19.png";
@@ -20,20 +20,13 @@ function About() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="mt-20 flex mx-36">
-          <div>
+        <div className="lg:flex justify-between md:flex-none mt-20 px-10 lg:px-36 md:px-32 sm:px-32">
+          <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
             <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
               <div className="leading-[40px]">
-                <span className="font-[300] text-[34px]">
-                  Kami percaya pada pemberdayaan <br />
-                  teknologi untuk semua. dan sadar
-                  <br /> bahwa
-                </span>
-                <span className="font-[900] text-[34px]">
-                  kami dapat membuat <br />
-                  perubahan dengan memberikan layanan teknologi yang berkualitas
-                </span>
+                <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua. dan sadar bahwa</span>
+                <span className="font-[900] text-[34px]"> kami dapat membuat perubahan dengan memberikan layanan teknologi yang berkualitas</span>
               </div>
             </div>
             <span className="border-b-4 border-[#1DC0AD] px-5"></span>

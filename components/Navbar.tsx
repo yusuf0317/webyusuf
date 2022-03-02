@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import logo from "../img/logo.png";
-import Dropdown from "./Dropdown";
 import Button from "./Button";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -25,9 +24,9 @@ export const Navbar = () => {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <div className="shadow-md fixed w-full -mt-24 bg-white z-[100]">
-        <div className="w-full px-14">
+        <div className="w-full pl-[50px] lg:px-[140px] sm:pl-[50px]">
           <div className="flex items-center h-[100px] w-full">
-            <div className="flex items items-center mx-20 justify-between w-full">
+            <div className="flex items items-center justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
                 <Link href="/">
                   <Image src={logo} />
@@ -40,12 +39,8 @@ export const Navbar = () => {
                     <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
-                    <div className="flex items-center">
-                      <div onClick={() => setOpen(!open)}>
-                        <Link href="/solution">Solusi Kami</Link>
-                        <span className={`text-center ${router.pathname == "/solution" ? "ml-7 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
-                      </div>
-                    </div>
+                    <Link href="/solution">Solusi Kami</Link>
+                    <span className={`text-center ${router.pathname == "/solution" ? "ml-7 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/work">Cara Kerja</Link>
@@ -79,16 +74,22 @@ export const Navbar = () => {
           >
             {(ref) => (
               <div className="md:hidden id=mobile-menu">
-                <ul className="bg-white pl-16 pb-7">
-                  <li className="cursor-pointer px-3 py-2 text-[18px]">
-                    <Link href="/">Tentang Kami</Link>
+                <ul className="bg-white pl-10 pb-7">
+                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/about" ? "text-[#1DC0AD]" : ""}`}>
+                    <Link href="/about">Tentang Kami</Link>
+                    <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
-                  <Dropdown />
-                  <li className="cursor-pointer px-3 py-2 text-[18px]">
-                    <Link href="/">Cara Kerja</Link>
+                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
+                    <Link href="/solution">Solusi Kami</Link>
+                    <span className={`text-center ${router.pathname == "/solution" ? "ml-7 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
-                  <li className="cursor-pointer px-3 py-2 text-[18px]">
-                    <Link href="/">Karya Kami</Link>
+                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
+                    <Link href="/work">Cara Kerja</Link>
+                    <span className={`text-center ${router.pathname == "/work" ? "ml-6 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
+                  </li>
+                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/cretion" ? "text-[#1DC0AD]" : ""}`}>
+                    <Link href="/cretion">Karya Kami</Link>
+                    <span className={`text-center ${router.pathname == "/cretion" ? "ml-8 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <Button />
                 </ul>
