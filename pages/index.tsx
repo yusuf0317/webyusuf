@@ -42,13 +42,17 @@ const Home: NextPage = () => {
               Kami adalah <span>Art By Code | ABC</span>
             </p>
             <h1 className="text-[48px] mt-10 font-[900] px-2">Ayo Ciptakan sesuatu yang indah dari sebuah kode</h1>
-            <button className="w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] mt-10">Mau tau lebih banyak</button>
+            <div className="mt-[44px] ml-3">
+              <a href="#btn" className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
+                Mau tau lebih banyak
+              </a>
+            </div>
           </div>
           <div className="pt-10 relative z-50">
             <Image src={heading} />
           </div>
         </div>
-        <div className="mt-36 mx-auto">
+        <div className="pt-36 mx-auto" id="btn">
           <div className="text-center">
             <span className="border-t-4 border-[#1DC0AD] px-5"></span>
             <h1 className="text-[48px] -mt-6 font-[900]">Solusi Kami</h1>

@@ -84,13 +84,13 @@ function work() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="lg:mt-24">
             <Image src={img4} />
           </div>
         </div>
         <div className="lg:px-28 md:px-16 py-16 lg:flex justify-between background">
-          <div className="ml-10 mt-16 mb-16 lg:w-[700px]">
-            <div className="md:order-last">
+          <div className="ml-10 mt-16 mb-16 lg:w-[700px] md:order-last">
+            <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">PASSION</p>
               <div className="leading-[40px]">
                 <span className="font-[300] text-[48px]">Kami membangun dengan</span>
@@ -148,57 +148,43 @@ function work() {
               </div>
             </div>
           </div>
-          <div className="md:order-last">
+          <div className="lg:mt-10">
             <Image src={img5} />
           </div>
         </div>
-        <div className="lg:flex md:block px-36 py-40">
+        <div className="lg:px-28 md:px-16 py-16 lg:flex justify-between">
+          <div className="ml-10 mt-16 mb-16 lg:w-[700px]">
+            <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CLEAN CODE</p>
+            <div className="leading-[40px]">
+              <span className="font-[300] text-[48px]">Kami percaya dengan</span>
+              <br />
+              <span className="font-[900] text-[48px]">kode yang bersih</span>
+            </div>
+            <p className="font-[400] text-[18px] mt-5">
+              Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan
+              <br />
+              berwarna yang menumpuk - kami belajar dari pengalaman, Fokus kami
+              <br />
+              adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya
+              <br />
+              akan membuat tenang tim IT kamu juga) demi produk yang berjangka
+              <br />
+              panjang dan dapat selalu dikembangkan.
+            </p>
+          </div>
           <div>
-            <div>
-              <Image src={img6} />
-            </div>
-            <div className="mb-10">
-              <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CLEAN CODE</p>
-              <div className="leading-[40px]">
-                <span className="font-[300] text-[48px]">Kami percaya dengan</span>
-                <br />
-                <span className="font-[900] text-[48px]">kode yang bersih</span>
-              </div>
-              <p className="font-[400] text-[18px] mt-5">
-                Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan
-                <br />
-                berwarna yang menumpuk - kami belajar dari pengalaman, Fokus kami
-                <br />
-                adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya
-                <br />
-                akan membuat tenang tim IT kamu juga) demi produk yang berjangka
-                <br />
-                panjang dan dapat selalu dikembangkan.
-              </p>
-            </div>
+            <Image src={img6} />
           </div>
         </div>
-        <div className="lg:flex md:block px-36 py-40 background">
-          <div>
-            <Image src={img7} />
-          </div>
-          <div>
-            <div>
+        <div className="lg:px-28 md:px-16 py-16 lg:flex justify-between  background">
+          <div className="ml-10 mt-16 mb-16 lg:w-[700px] md:order-last">
+            <div className="lg:w-[300px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">TECHNICAL EXPERTISE</p>
               <div className="leading-[40px]">
-                <span className="font-[300] text-[48px]">Kemampuan</span>
-                <br />
+                <span className="font-[300] text-[48px]">Kemampuan </span>
                 <span className="font-[900] text-[48px]">teknis kami</span>
               </div>
-              <p className="font-[400] text-[18px] mt-5">
-                Kami tidak akan pernah berhenti
-                <br />
-                belajar bahasa dan teknologi
-                <br />
-                terbaru agar dapat memberikan
-                <br />
-                solusi yang terbaik bagi kamu
-              </p>
+              <p className="font-[400] text-[18px] mt-5">Kami tidak akan pernah berhenti belajar bahasa dan teknologi terbaru agar dapat memberikan solusi yang terbaik bagi kamu</p>
             </div>
             <span className="border-b-4 border-[#1DC0AD] px-5"></span>
             <div className="mt-7 lg:flex md:flex sm:block">
@@ -248,73 +234,91 @@ function work() {
               </div>
             </div>
           </div>
+          <div className="lg:mt-28">
+            <Image src={img7} />
+          </div>
         </div>
         <div className="py-40">
-          <div className="text-center">
+          <div className="text-center mb-20">
             <span className="border-t-4 border-[#1DC0AD] px-5"></span>
-            <h1 className="text-[48px] -mt-6 font-[900]">Solusi Kami</h1>
+            <h1 className="text-[48px] -mt-6 font-[900]">Alat Kolaborasi</h1>
           </div>
-          <div className="columns-5">
-            <div>
-              <div className="mx-5">
-                <Image src={img8} />
-                <p className="font-[900] text-[24px] text-[#289FD2]">Telegram</p>
-                <p className="font-[400] text-[18px]">
-                  for ongoing
-                  <br />
-                  communication
-                  <br />
-                  with the team
-                </p>
+          <div className="">
+            <div className="flex flex-wrap lg:pl-[140px] md:px-16 px-10">
+              <div className="mx-3 py-3 w-48">
+                <div className="">
+                  <Image src={img8} />
+                </div>
+                <div>
+                  <p className="font-[900] text-[24px] text-[#289FD2]">Telegram</p>
+                  <p className="font-[400] text-[18px]">
+                    for ongoing
+                    <br />
+                    communication
+                    <br />
+                    with the team
+                  </p>
+                </div>
               </div>
-              <div className="mx-5">
-                <Image src={img9} />
-                <p className="font-[900] text-[24px] text-[#5059C9]">
-                  Microsoft
-                  <br />
-                  Teams
-                </p>
-                <p className="font-[400] text-[18px]">
-                  for video conferencing
-                  <br />
-                  and coordination
-                </p>
+              <div className="mx-3 py-3 w-48 ">
+                <div>
+                  <Image src={img9} />
+                </div>
+                <div>
+                  <p className="font-[900] text-[24px] text-[#5059C9]">
+                    Microsoft
+                    <br />
+                    Teams
+                  </p>
+                  <p className="font-[400] text-[18px]">
+                    for video conferencing
+                    <br />
+                    and coordination
+                  </p>
+                </div>
               </div>
-              <div className="mx-5">
-                <Image src={img10} />
-                <p className="font-[900] text-[24px] text-[#528FF5]">Google Docs</p>
-                <p className="font-[400] text-[18px]">
-                  for dynamic
-                  <br />
-                  collaboration n<br />
-                  documentation
-                </p>
+              <div className="mx-3 w-48  py-3">
+                <div>
+                  <Image src={img10} />
+                </div>
+                <div>
+                  <p className="font-[900] text-[24px] text-[#528FF5]">Google Docs</p>
+                  <p className="font-[400] text-[18px]">
+                    for dynamic
+                    <br />
+                    collaboration n<br />
+                    documentation
+                  </p>
+                </div>
               </div>
-              <div className="mx-5">
-                <Image src={img11} />
-                <p className="font-[900] text-[24px] text-[#F24E1E]">Figma</p>
-                <p className="font-[400] text-[18px]">
-                  for designing and
-                  <br />
-                  presenting <br />
-                  the the mockup design
-                </p>
+              <div className="mx-3 w-48  py-3">
+                <div>
+                  <Image src={img11} />
+                </div>
+                <div>
+                  <p className="font-[900] text-[24px] text-[#F24E1E]">Figma</p>
+                  <p className="font-[400] text-[18px]">
+                    for designing and
+                    <br />
+                    presenting <br />
+                    the the mockup design
+                  </p>
+                </div>
               </div>
-              <div className="mx-5">
-                <Image src={img12} />
-                <p
-                  className="font-[900] text-[24px] text-[#6C10B6
-]"
-                >
-                  Whimsical
-                </p>
-                <p className="font-[400] text-[18px]">
-                  for designing and
-                  <br />
-                  persenting the
-                  <br />
-                  wireframe
-                </p>
+              <div className="mx-3 w-48 py-3">
+                <div>
+                  <Image src={img12} />
+                </div>
+                <div>
+                  <p className="font-[900] text-[24px] text-[#6C10B6]">Whimsical</p>
+                  <p className="font-[400] text-[18px]">
+                    for designing and
+                    <br />
+                    persenting the
+                    <br />
+                    wireframe
+                  </p>
+                </div>
               </div>
             </div>
           </div>

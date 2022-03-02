@@ -34,21 +34,24 @@ export const Navbar = () => {
               </div>
               <div className="hidden md:block">
                 <ul className="ml-10 flex items-baseline space-x-4">
+                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/" ? "text-[#1DC0AD]" : ""}`}>
+                    <Link href="/">Home</Link>
+                    <span className={`text-center ${router.pathname == "/" ? "ml-[4px] border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-[4px] border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
+                  </li>
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/about" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/about">Tentang Kami</Link>
                     <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
-                    <Link href="/solution">Solusi Kami</Link>
-                    <span className={`text-center ${router.pathname == "/solution" ? "ml-7 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
+                  <li className={`cursor-pointer px-3 py-2 text-[18px]  ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
+                    <div className="flex items-center">
+                      <Link href="/solution">Solusi Kami</Link>
+                      <i className="bx bx-chevron-down ml-2 text-[30px]"></i>
+                    </div>
+                    <span className={`text-center ${router.pathname == "/solution" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/work">Cara Kerja</Link>
                     <span className={`text-center ${router.pathname == "/work" ? "ml-6 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
-                  </li>
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/cretion" ? "text-[#1DC0AD]" : ""}`}>
-                    <Link href="/cretion">Karya Kami</Link>
-                    <span className={`text-center ${router.pathname == "/cretion" ? "ml-8 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <Button />
                 </ul>
@@ -75,6 +78,10 @@ export const Navbar = () => {
             {(ref) => (
               <div className="md:hidden id=mobile-menu">
                 <ul className="bg-white pl-10 pb-7">
+                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/" ? "text-[#1DC0AD]" : ""}`}>
+                    <Link href="/">Home</Link>
+                    <span className={`text-center ${router.pathname == "/" ? "ml-[4px] border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-[4px] border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
+                  </li>
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/about" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/about">Tentang Kami</Link>
                     <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
@@ -86,10 +93,6 @@ export const Navbar = () => {
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/work">Cara Kerja</Link>
                     <span className={`text-center ${router.pathname == "/work" ? "ml-6 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
-                  </li>
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/cretion" ? "text-[#1DC0AD]" : ""}`}>
-                    <Link href="/cretion">Karya Kami</Link>
-                    <span className={`text-center ${router.pathname == "/cretion" ? "ml-8 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <Button />
                 </ul>

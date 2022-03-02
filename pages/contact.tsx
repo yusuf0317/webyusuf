@@ -18,7 +18,10 @@ function Contact() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="mt-20 flex mx-36">
+        <div className="py-40 lg:px-36 md:px-5 lg:flex md:flex-none">
+          <div className="md:order-last">
+            <Image src={img1} />
+          </div>
           <div>
             <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CONTACT ME</p>
@@ -59,9 +62,6 @@ function Contact() {
                 <button className="text-[18px] w-[500px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD]">Aku siap! Kirimkan pesan!</button>
               </div>
             </div>
-          </div>
-          <div>
-            <Image src={img1} />
           </div>
         </div>
       </Layout>

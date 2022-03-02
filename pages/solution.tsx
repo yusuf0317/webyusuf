@@ -25,7 +25,7 @@ function Solution() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        {/* <div className="fixed -mt-9 z-10 w-full bg-white items-center pt-5 shadow-md">
+        <div className="fixed -mt-9 z-10 w-full bg-white items-center pt-5 shadow-md">
           <div className="w-full items-center">
             <div className="lg:px-[150px] md:px-1 items-center w-full">
               <div className="flex items items-center justify-between w-full">
@@ -54,7 +54,7 @@ function Solution() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="pt-48 pb-28 lg:px-28 md:px-5" id="web">
           <div className="lg:flex md:flex-none">
             <div>
@@ -81,7 +81,7 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-48 md:px-5 md:px-32" id="ui">
+        <div className="py-48 md:px-32" id="ui">
           <div className="lg:flex md:block">
             <div>
               <Image src={img3} />
