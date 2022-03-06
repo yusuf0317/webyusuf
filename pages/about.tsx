@@ -5,6 +5,7 @@ import img1 from "../img/about/1.gif";
 import img2 from "../img/work/icn1.png";
 import img3 from "../img/work/icn2.png";
 import img4 from "../img/home/19.png";
+import ScrollToTop from "react-scroll-to-top";
 
 function About() {
   return (
@@ -20,7 +21,8 @@ function About() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="lg:flex justify-between md:flex-none mt-20 px-10 lg:px-36 md:px-32 sm:px-32">
+        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+        <div className="lg:flex justify-between md:flex-none px-10 lg:px-36 md:px-32 sm:px-32">
           <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
             <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
