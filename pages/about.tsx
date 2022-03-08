@@ -17,12 +17,12 @@ function About() {
         <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="lg:flex justify-between md:flex-none px-10 lg:px-36 md:px-32 sm:px-32">
+        <div className="lg:flex justify-between md:flex-none px-10 lg:px-36 md:px-32 sm:px-32 mt-48">
           <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
             <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>

@@ -15,6 +15,7 @@ import img10 from "../img/work/7.png";
 import img11 from "../img/work/8.png";
 import img12 from "../img/work/9.png";
 import img13 from "../img/home/19.png";
+import ScrollToTop from "react-scroll-to-top";
 
 function work() {
   return (
@@ -26,11 +27,12 @@ function work() {
         <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="lg:px-28 md:px-5 py-16 lg:flex md:block">
+        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+        <div className="lg:px-28 md:px-5 py-16 lg:flex md:block mt-32">
           <div className="ml-10 mt-16 mb-16 lg:w-[700px]">
             <div>
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">COLLABORATIUM</p>

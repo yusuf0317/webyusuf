@@ -32,7 +32,7 @@ export const Navbar = () => {
                   <Image src={logo} />
                 </Link>
               </div>
-              <div className="hidden md:block">
+              <div className="hidden md:block font-[700]">
                 <ul className="ml-10 flex items-baseline space-x-4">
                   <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/">Home</Link>
@@ -43,7 +43,7 @@ export const Navbar = () => {
                     <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <li className={`cursor-pointer px-3 py-2 text-[18px]  ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
-                    <div className="flex items-center">
+                    <div className="flex items-center font">
                       <Link href="/solution">Solusi Kami</Link>
                       <i className="bx bx-chevron-down ml-2 text-[30px]"></i>
                     </div>

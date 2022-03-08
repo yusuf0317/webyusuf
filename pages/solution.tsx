@@ -3,15 +3,20 @@ import Layout from "../components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import img1 from "../img/solution/1.gif";
-import img2 from "../img/solution/4.gif";
+import img2 from "../img/solution/2.gif";
 import img3 from "../img/solution/3.gif";
 import img4 from "../img/solution/4.gif";
 import img5 from "../img/solution/5.gif";
 import img6 from "../img/solution/6.gif";
 import img7 from "../img/home/19.png";
+import ScrollToTop from "react-scroll-to-top";
+import { Link } from "react-scroll";
 
 function Solution() {
-  const [show, setShow] = useState(false);
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => setClick(false);
   return (
     <div>
       <Head>
@@ -21,42 +26,51 @@ function Solution() {
         <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="fixed -mt-9 z-10 w-full bg-white items-center pt-5 shadow-md">
-          <div className="w-full items-center">
-            <div className="lg:px-[150px] md:px-1 items-center w-full">
-              <div className="flex items items-center justify-between w-full">
-                <div className="w-full">
-                  <ul className=" text-[14px] text-gray-400 pb-5 leading-10 flex">
-                    <li className="pr-7">
-                      <a href="#web">Web Development</a>
-                    </li>
-                    <li className="px-7">
-                      <a href="#app">App Development</a>
-                    </li>
-                    <li className="px-7">
-                      <a href="#ui">UI/UX Design</a>
-                    </li>
-                    <li className="px-7">
-                      <a href="#ml">Machine Learning</a>
-                    </li>
-                    <li className="px-7">
-                      <a href="#fa">Flow Automation</a>
-                    </li>
-                    <li className="px-7">
-                      <a href="#bda">Branding & Digitals Ads</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+        <div className="fixed top-[100px] z-10 w-full bg-white items-center pt-5 shadow-md">
+          <div className="lg:px-[130px] md:pl-10 sm:pl-10 pl-10 items-center lg:w-full">
+            <div className="flex items items-center justify-between w-full">
+              <ul className=" text-[14px] text-gray-400 lg:pb-5 md:pb-2  leading-10 flex overflow-x-auto wrapper font-[700]">
+                <li className="min-w-[150px] text-center ">
+                  <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                    Web Development
+                  </Link>
+                </li>
+                <li className="min-w-[150px] text-center">
+                  <Link to="app" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                    App Development
+                  </Link>
+                </li>
+                <li className="min-w-[150px] text-center">
+                  <Link to="ui" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                    UI/UX Design
+                  </Link>
+                </li>
+                <li className="min-w-[150px] text-center">
+                  <Link to="ml" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                    Machine Learning
+                  </Link>
+                </li>
+                <li className="min-w-[150px]  text-center">
+                  <Link to="fa" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                    Flow Automation
+                  </Link>
+                </li>
+                <li className="min-w-[200px] text-center">
+                  <Link to="bda" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                    Branding & Digitals Ads
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <div className="pt-48 pb-28 lg:px-28 md:px-5" id="web">
-          <div className="lg:flex md:flex-none">
+        <div className="lg:px-28 md:px-5 pt-64 -mt-14 pb-52" id="web">
+          <div className="lg:flex md:flex-none py-10">
             <div>
               <Image src={img1} />
             </div>
@@ -68,9 +82,9 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-48 background lg:px-28 md:px-5" id="app">
+        <div className="py-52 background lg:px-28 md:px-5" id="app">
           <div className="lg:flex">
-            <div className=" order-last">
+            <div className=" order-last mt-5">
               <Image src={img2} />
             </div>
             <div className="mx-10 mt-16 mb-10 lg:w-[670px]">
@@ -81,9 +95,9 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-48 md:px-32" id="ui">
+        <div className="py-52 md:px-32" id="ui">
           <div className="lg:flex md:block">
-            <div>
+            <div className="mt-10">
               <Image src={img3} />
             </div>
             <div className="mx-10 mt-16 mb-10 lg:w-[610px]">
@@ -94,9 +108,9 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-48 lg:px-28 md:px-5 background" id="ml">
+        <div className="py-52 lg:px-28 md:px-5 background" id="ml">
           <div className="lg:flex">
-            <div className=" order-last">
+            <div className=" order-last lg:mt-10">
               <Image src={img4} />
             </div>
             <div className="mt-16 mb-10 mx-10 lg:w-[610px]">
@@ -107,7 +121,7 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-48 lg:px-28 md:px-5" id="fa">
+        <div className="py-52 lg:px-28 md:px-5" id="fa">
           <div className="lg:flex">
             <div>
               <Image src={img5} />
@@ -120,9 +134,9 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-48 lg:px-28 md:px-5 background" id="bda">
+        <div className="py-52 lg:px-28 md:px-5 background" id="bda">
           <div className="lg:flex">
-            <div className=" order-last">
+            <div className=" order-last lg:mt-10">
               <Image src={img6} />
             </div>
             <div className="mt-16 mb-10 mx-10 lg:w-[610px]">

@@ -22,6 +22,7 @@ import img17 from "../img/home/17.png";
 import img18 from "../img/home/18.png";
 import img19 from "../img/home/19.png";
 import Layout from "../components/Layout";
+import ScrollToTop from "react-scroll-to-top";
 
 const Home: NextPage = () => {
   return (
@@ -32,17 +33,24 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
       </Head>
       <Layout>
-        <div className="lg:flex justify-between md:block px-7 lg:px-32 md:px-36 sm:px-10">
+        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+        <div className="lg:flex justify-between md:block px-7 lg:px-32 md:px-36 sm:px-10 mt-32">
           <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 w-[520px]">
-            <p>
-              Kami adalah <span>Art By Code | ABC</span>
+            <p className="text-[24px]">
+              <span className="font-[400]">Kami adalah</span>{" "}
+              <span className="font-[700] text-[#1DC0AD]" style={{ fontFamily: "Montserrat Alternates" }}>
+                Art By Code | ABC
+              </span>
             </p>
-            <h1 className="text-[48px] mt-10 font-[900] px-2">Ayo Ciptakan sesuatu yang indah dari sebuah kode</h1>
-            <div className="mt-[44px] ml-3">
+            <h1 className="text-[48px] mt-7 font-[900]">Ayo Ciptakan sesuatu yang indah dari sebuah kode</h1>
+            <div className="mt-[44px]">
               <a href="#btn" className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
                 Mau tau lebih banyak
               </a>

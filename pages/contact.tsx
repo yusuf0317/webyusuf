@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import img1 from "../img/contact/1.gif";
+import ScrollToTop from "react-scroll-to-top";
 
 function Contact() {
   return (
@@ -14,12 +15,13 @@ function Contact() {
         <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div className="py-40 lg:px-36 md:px-5 lg:flex md:flex-none">
-          <div className="md:order-last">
+        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+        <div className="px-7 py-40 lg:px-36 md:px-5 lg:flex md:flex-none">
+          <div className="md:order-last lg:mt-10 md:-mt-56">
             <Image src={img1} />
           </div>
           <div>
@@ -35,7 +37,7 @@ function Contact() {
                 dan kebutuhan kamu
               </p>
             </div>
-            <div className="mt-10 block">
+            <div className="mt-10 block lg:mr-20">
               <div className=" mb-3">
                 <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] w-[500px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
               </div>
@@ -48,9 +50,9 @@ function Contact() {
               <div className=" mb-3">
                 <input type="text" placeholder="Beritahu kami email kamu ..." className="text-[18px] w-[500px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
               </div>
-              <div className=" mb-3">
+              <div className="mb-3">
                 <form>
-                  <select className="text-[18px] w-[500px] h-[60px] border-[#9B9B9B] border outline-none text-black  rounded-[10px] px-5">
+                  <select className="text-[18px] w-[500px] h-[60px] border-[#9B9B9B] border outline-none text-black  rounded-[10px] px-5 font-[900]">
                     <option value="volvo">Web Development</option>
                     <option value="saab">Mobile Development</option>
                     <option value="fiat">UI/UX Design</option>
@@ -59,7 +61,7 @@ function Contact() {
                 </form>
               </div>
               <div className="mt-10">
-                <button className="text-[18px] w-[500px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD]">Aku siap! Kirimkan pesan!</button>
+                <button className="text-[18px] w-[500px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD] font-[900]">Aku siap! Kirimkan pesan!</button>
               </div>
             </div>
           </div>
