@@ -152,7 +152,7 @@ const Home: NextPage = () => {
               <div className="mb-20 mx-12">
                 <Image src={img16} />
               </div>
-              <div className="mb-20 mx-12">
+              <div className="mb-20 lg:ml-72 mx-12">
                 <Image src={img17} />
               </div>
               <div className="mb-20 mx-12">
