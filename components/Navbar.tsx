@@ -23,7 +23,7 @@ export const Navbar = () => {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
-      <div className="shadow-md fixed w-full -mt-24 bg-white z-[100]">
+      <div className="shadow-md fixed top-0 w-full bg-white z-[100] font -[700]">
         <div className="w-full pl-[50px] lg:px-[140px] sm:pl-[50px]">
           <div className="flex items-center h-[100px] w-full">
             <div className="flex items items-center justify-between w-full">
@@ -101,7 +101,6 @@ export const Navbar = () => {
           </Transition>
         </div>
       </div>
-      <div className="flex justify-between items-center space-y-0 mt-24 pt-10 bg-white"></div>
     </div>
   );
 };
