@@ -9,7 +9,6 @@ import Head from "next/head";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [open, setOpen] = useState(false);
   const router = useRouter();
   return (
     <div>
@@ -25,7 +24,7 @@ export const Navbar = () => {
       </Head>
       <div className="shadow-md fixed top-0 w-full bg-white z-[100] font-[700]">
         <div className="w-full flex justify-center">
-          <div className="flex justify-center items-center h-[100px] lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="flex justify-center items-center h-[100px] lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[250px]">
             <div className="flex items items-center justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
                 <Link href="/">
