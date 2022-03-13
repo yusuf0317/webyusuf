@@ -10,13 +10,9 @@ import img5 from "../img/solution/5.gif";
 import img6 from "../img/solution/6.gif";
 import img7 from "../img/home/19.png";
 import ScrollToTop from "react-scroll-to-top";
-import { Link } from "react-scroll";
+import { Link, Element, scroller } from "react-scroll";
 
 function Solution() {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-
-  const closeMenu = () => setClick(false);
   return (
     <div>
       <Head>
@@ -31,63 +27,61 @@ function Solution() {
       </Head>
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="fixed top-[100px] z-10 w-full bg-white items-center pt-5 shadow-md">
-          <div className="lg:px-[130px] md:pl-10 sm:pl-10 pl-10 items-center lg:w-full">
-            <div className="flex items items-center justify-between w-full">
-              <ul className=" text-[14px] text-gray-400 lg:pb-5 md:pb-2  leading-10 flex overflow-x-auto wrapper font-[700]">
-                <li className="min-w-[150px] text-center ">
-                  <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                    Web Development
-                  </Link>
-                </li>
-                <li className="min-w-[150px] text-center">
-                  <Link to="app" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                    App Development
-                  </Link>
-                </li>
-                <li className="min-w-[150px] text-center">
-                  <Link to="ui" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                    UI/UX Design
-                  </Link>
-                </li>
-                <li className="min-w-[150px] text-center">
-                  <Link to="ml" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                    Machine Learning
-                  </Link>
-                </li>
-                <li className="min-w-[150px]  text-center">
-                  <Link to="fa" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                    Flow Automation
-                  </Link>
-                </li>
-                <li className="min-w-[200px] text-center">
-                  <Link to="bda" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                    Branding & Digitals Ads
-                  </Link>
-                </li>
-              </ul>
-            </div>
+        <div className="fixed top-[100px] z-10 flex justify-center bg-white items-center pt-5 shadow-md w-full">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] items-center">
+            <ul className="flex justify-between text-[14px] text-gray-400 lg:pb-5 md:pb-2  leading-10 overflow-x-auto wrapper font-[700]">
+              <li className="min-w-[130px]  text-center mr-[15px]">
+                <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                  Web Development
+                </Link>
+              </li>
+              <li className="min-w-[130px]  text-center mr-[15px]">
+                <Link to="app" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                  App Development
+                </Link>
+              </li>
+              <li className="min-w-[100px]  text-center mr-[15px]">
+                <Link to="ui" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                  UI/UX Design
+                </Link>
+              </li>
+              <li className="min-w-[125px]  text-center mr-[15px]">
+                <Link to="ml" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                  Machine Learning
+                </Link>
+              </li>
+              <li className="min-w-[125px]  text-center mr-[15px]">
+                <Link to="fa" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                  Flow Automation
+                </Link>
+              </li>
+              <li className="min-w-[170px] -2 text-center">
+                <Link to="bda" spy={true} smooth={true} offset={50} duration={500} delay={10} isDynamic={true} ignoreCancelEvents={false} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
+                  Branding & Digitals Ads
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="lg:px-28 md:px-5 pt-64 -mt-14 pb-52" id="web">
-          <div className="lg:flex md:flex-none py-10">
-            <div>
+        <Element name="myScrollToElement" className="flex justify-center -mt-14 pt-64 pb-52" id="web">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between md:flex-none">
+            <div className="flex justify-center">
               <Image src={img1} />
             </div>
-            <div className="ml-10 mt-16 mb-10 lg:w-[600px]">
+            <div className="mt-16 mb-10 lg:w-[600px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Kami siap untuk punya website?</h1>
               <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita bust itu semua jadi kenyataan</p>
               <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
             </div>
           </div>
-        </div>
-        <div className="py-52 background lg:px-28 md:px-5" id="app">
-          <div className="lg:flex">
+        </Element>
+        <div className="background flex justify-center py-52" id="app">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
             <div className=" order-last mt-5">
               <Image src={img2} />
             </div>
-            <div className="mx-10 mt-16 mb-10 lg:w-[670px]">
+            <div className="mt-16 mb-10 lg:w-[670px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">APP DEVELOPMENT</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">"Bangun Aplikasi itu susah", kata mereka, bukan kami</h1>
               <p className="font-[400] text-[18px] ">Saat ini (hampir) semua orang itu pasti memiliki ponsel dan akan selalu membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
@@ -95,12 +89,12 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-52 md:px-32" id="ui">
-          <div className="lg:flex md:block">
+        <div className="py-52 flex justify-center" id="ui">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
             <div className="mt-10">
               <Image src={img3} />
             </div>
-            <div className="mx-10 mt-16 mb-10 lg:w-[610px]">
+            <div className="mt-16 mb-10 lg:w-[610px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">UI/UX DESIGN</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih ?</h1>
               <p className="font-[400] text-[18px] ">Apa yang dilihat pertama kali oleh pengunjung ketika mereka membuka sesuatu website/aplikasi? Jelas penampilannya dan kemudian penggunaanya</p>
@@ -108,12 +102,12 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-52 lg:px-28 md:px-5 background" id="ml">
-          <div className="lg:flex">
+        <div className="py-52 flex justify-center background" id="ml">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
             <div className=" order-last lg:mt-10">
               <Image src={img4} />
             </div>
-            <div className="mt-16 mb-10 mx-10 lg:w-[610px]">
+            <div className="mt-16 mb-10 lg:w-[610px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">MEACHING LEARNING</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Buat mesin bekerja untuk kamu, bukan sebaliknya</h1>
               <p className="font-[400] text-[18px] ">Rasanya ingin mengajarkan mesin untuk bekerja dengan sendirinya tanpa perlu ada kerjaan tambahan ?</p>
@@ -121,12 +115,12 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-52 lg:px-28 md:px-5" id="fa">
-          <div className="lg:flex">
+        <div className="py-52 flex justify-center" id="fa">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
             <div>
               <Image src={img5} />
             </div>
-            <div className="mt-16 mb-10 mx-10 lg:w-[610px]">
+            <div className="mt-16 mb-10 lg:w-[610px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">FLOW AUTOMATION</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu masih hobi ngerjain administrasi berulang?</h1>
               <p className="font-[400] text-[18px] ">Biarkan proses administrasi manual dan tumpukan dokumen fisik menjadi cerita dan kenangan lama (jangan yang lain-lain ya)</p>
@@ -134,12 +128,12 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="py-52 lg:px-28 md:px-5 background" id="bda">
-          <div className="lg:flex">
+        <div className="py-52 flex justify-center background" id="bda">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
             <div className=" order-last lg:mt-10">
               <Image src={img6} />
             </div>
-            <div className="mt-16 mb-10 mx-10 lg:w-[610px]">
+            <div className="mt-16 mb-10 lg:w-[610px]">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">BRANDING & DIGITAL ADS</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Ingin berkomunikasi lebih baik dengan konsumen?</h1>
               <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan denagn konsumen. Mau tahu lebih?</p>

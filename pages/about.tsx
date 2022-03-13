@@ -21,64 +21,68 @@ function About() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="lg:flex justify-between md:flex-none px-10 lg:px-36 md:px-32 sm:px-32 mt-48">
-          <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
-            <div>
-              <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
-              <div className="leading-[40px]">
-                <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua. dan sadar bahwa</span>
-                <span className="font-[900] text-[34px]"> kami dapat membuat perubahan dengan memberikan layanan teknologi yang berkualitas</span>
-              </div>
-            </div>
-            <span className="border-b-4 border-[#1DC0AD] px-5"></span>
-            <div className="">
-              <div className="mt-7">
-                <div className="mb-2">
-                  <Image src={img2} />
+        <div className="flex justify-center mt-56">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+            <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+            <div className="lg:flex justify-between md:flex-none">
+              <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
+                <div>
+                  <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
+                  <div className="leading-[40px]">
+                    <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua. dan sadar bahwa</span>
+                    <span className="font-[900] text-[34px]"> kami dapat membuat perubahan dengan memberikan layanan teknologi yang berkualitas</span>
+                  </div>
                 </div>
-                <p className="font-[900] text-[18px]">Siapa yang kami bantu?</p>
-                <p className="text-[14px] font-[400] mt-2">
-                  Dari usaha kecil, menengah, sampai dengan besar yang mencari teknologi
-                  <br />
-                  dalam pekembangan dan efisiensi bisnis. Kami bertujuan untuk menjadi
-                  <br />
-                  rekan strategis, jangka panjang yang dapat mewujudkan kebutuhan dan
-                  <br />
-                  juga menjadi lawan diskusi dari para rekan kami.
-                </p>
-              </div>
-              <div className="mt-7">
-                <div className="mb-2">
-                  <Image src={img3} />
+                <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                <div className="">
+                  <div className="mt-7">
+                    <div className="mb-2">
+                      <Image src={img2} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Siapa yang kami bantu?</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Dari usaha kecil, menengah, sampai dengan besar yang mencari teknologi
+                      <br />
+                      dalam pekembangan dan efisiensi bisnis. Kami bertujuan untuk menjadi
+                      <br />
+                      rekan strategis, jangka panjang yang dapat mewujudkan kebutuhan dan
+                      <br />
+                      juga menjadi lawan diskusi dari para rekan kami.
+                    </p>
+                  </div>
+                  <div className="mt-7">
+                    <div className="mb-2">
+                      <Image src={img3} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Apa yang kamu percayai</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Bekerjalah dengan sepenuh hati integritas untuk memberikan hasil yang
+                      <br />
+                      terbaik, karena kesuksesan rekankami akan menjadi pendiri kita untuk
+                      <br />
+                      bisa lebih berkembang juga
+                    </p>
+                  </div>
                 </div>
-                <p className="font-[900] text-[18px]">Apa yang kamu percayai</p>
-                <p className="text-[14px] font-[400] mt-2">
-                  Bekerjalah dengan sepenuh hati integritas untuk memberikan hasil yang
-                  <br />
-                  terbaik, karena kesuksesan rekankami akan menjadi pendiri kita untuk
-                  <br />
-                  bisa lebih berkembang juga
-                </p>
+              </div>
+              <div>
+                <Image src={img1} />
               </div>
             </div>
-          </div>
-          <div>
-            <Image src={img1} />
-          </div>
-        </div>
-        <div className="text-center">
-          <div>
-            <div>
-              <Image src={img4} />
+            <div className="text-center">
+              <div>
+                <div>
+                  <Image src={img4} />
+                </div>
+                <h1 className="text-[48px] font-[900]">Apakah kamu siap?</h1>
+                <p>
+                  Beritahu kami apa yang mau kamu bangun atau kesulitan
+                  <br />
+                  apa yang kamu hadapi
+                </p>
+                <button className="w-[150px] h-[55.4px] border border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20">Hubungi Kami</button>
+              </div>
             </div>
-            <h1 className="text-[48px] font-[900]">Apakah kamu siap?</h1>
-            <p>
-              Beritahu kami apa yang mau kamu bangun atau kesulitan
-              <br />
-              apa yang kamu hadapi
-            </p>
-            <button className="w-[150px] h-[55.4px] border border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20">Hubungi Kami</button>
           </div>
         </div>
       </Layout>

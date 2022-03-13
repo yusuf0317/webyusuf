@@ -23,9 +23,9 @@ export const Navbar = () => {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
-      <div className="shadow-md fixed top-0 w-full bg-white z-[100] font -[700]">
-        <div className="w-full pl-[50px] lg:px-[140px] sm:pl-[50px]">
-          <div className="flex items-center h-[100px] w-full">
+      <div className="shadow-md fixed top-0 w-full bg-white z-[100] font-[700]">
+        <div className="w-full flex justify-center">
+          <div className="flex justify-center items-center h-[100px] lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
             <div className="flex items items-center justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
                 <Link href="/">
@@ -76,21 +76,21 @@ export const Navbar = () => {
             leaveTo="opacity-0 scale-95"
           >
             {(ref) => (
-              <div className="md:hidden id=mobile-menu">
-                <ul className="bg-white pl-10 pb-7">
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/" ? "text-[#1DC0AD]" : ""}`}>
+              <div className="md:hidden id=mobile-menu flex justify-center">
+                <ul className="bg-white lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+                  <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/">Home</Link>
                     <span className={`text-center ${router.pathname == "/" ? "ml-[4px] border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-[4px] border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/about" ? "text-[#1DC0AD]" : ""}`}>
+                  <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/about" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/about">Tentang Kami</Link>
                     <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
+                  <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/solution">Solusi Kami</Link>
                     <span className={`text-center ${router.pathname == "/solution" ? "ml-7 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
-                  <li className={`cursor-pointer px-3 py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
+                  <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/work">Cara Kerja</Link>
                     <span className={`text-center ${router.pathname == "/work" ? "ml-6 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
