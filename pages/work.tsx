@@ -246,7 +246,7 @@ function work() {
             <h1 className="text-[48px] -mt-6 font-[900]">Alat Kolaborasi</h1>
           </div>
           <div className="flex justify-center">
-            <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+            <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
               <div className="flex flex-wrap justify-center">
                 <div className="mx-6 py-3 ">
                   <div>
