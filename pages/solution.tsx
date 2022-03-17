@@ -28,8 +28,8 @@ function Solution() {
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
         <div className="fixed top-[100px] z-10 flex justify-center bg-white items-center pt-5 shadow-md w-full">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
-            <ul className="flex justify-between text-[14px] text-gray-400 lg:pb-5 md:pb-2 leading-10 overflow-x-auto wrapper font-[700]">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center h-[60px]">
+            <ul className="flex justify-between text-[14px] text-gray-400 items-center leading-10 overflow-x-auto wrapper font-[700]">
               <li className="min-w-[130px]  text-center mr-[15px]">
                 <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Web Development
