@@ -67,7 +67,7 @@ export const Navbar = () => {
         <div>
           <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
             {(ref) => (
-              <div className="md:hidden id=mobile-menu flex justify-center">
+              <div className="md:hidden id=mobile-menu flex justify-center pb-7">
                 <ul className="bg-white lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
                   <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/">Home</Link>

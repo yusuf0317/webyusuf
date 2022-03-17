@@ -247,8 +247,8 @@ function work() {
           </div>
           <div className="flex justify-center">
             <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
-              <div className="flex flex-wrap justify-center">
-                <div className="mx-6 py-3 ">
+              <div className="flex flex-wrap justify-between">
+                <div className="py-3 ">
                   <div>
                     <Image src={img8} />
                   </div>
@@ -263,7 +263,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="mx-6 py-3  ">
+                <div className="py-3  ">
                   <div>
                     <Image src={img9} />
                   </div>
@@ -280,7 +280,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="mx-6  py-3">
+                <div className="py-3">
                   <div>
                     <Image src={img10} />
                   </div>
@@ -294,7 +294,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="mx-6  py-3">
+                <div className="py-3">
                   <div>
                     <Image src={img11} />
                   </div>
@@ -308,7 +308,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="mx-6  py-3  ">
+                <div className="py-3  ">
                   <div>
                     <Image src={img12} />
                   </div>

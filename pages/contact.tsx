@@ -27,22 +27,18 @@ function Contact() {
                 <Image src={img1} />
               </div>
               <div className="flex justify-center">
-                <div className="w-[500px]">
+                <div className="lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px]">
                   <div>
                     <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CONTACT ME</p>
                     <div className="leading-[40px]">
                       <span className="font-[300] text-[48px]">Apakah </span>
                       <span className="font-[900] text-[48px]">kamu siap?</span>
                     </div>
-                    <p className="font-[400] text-[18px] mt-5">
-                      Kami selalu siap untuk menjawab segala pertanyaan
-                      <br />
-                      dan kebutuhan kamu
-                    </p>
+                    <p className="font-[400] text-[18px] mt-5">Kami selalu siap untuk menjawab segala pertanyaan dan kebutuhan kamu</p>
                   </div>
                   <div className="mt-10 block lg:mr-20">
                     <div className=" mb-3">
-                      <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
+                      <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
                     </div>
                     <div className=" mb-3">
                       <input
