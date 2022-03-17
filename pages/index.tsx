@@ -23,6 +23,7 @@ import img18 from "../img/home/18.png";
 import img19 from "../img/home/19.png";
 import Layout from "../components/Layout";
 import ScrollToTop from "react-scroll-to-top";
+import { Link } from "react-scroll";
 
 const Home: NextPage = () => {
   return (
@@ -53,16 +54,16 @@ const Home: NextPage = () => {
                 </p>
                 <h1 className="text-[48px] mt-7 font-[900]">Ayo Ciptakan sesuatu yang indah dari sebuah kode</h1>
                 <div className="mt-[44px]">
-                  <a href="#btn" className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
+                  <Link to="one" spy={true} smooth={true} offset={50} duration={500} className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
                     Mau tau lebih banyak
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="pt-10 relative z-50 flex justify-center">
                 <Image src={heading} />
               </div>
             </div>
-            <div className="pt-36 mx-auto" id="btn">
+            <div className="pt-48" id="one">
               <div className="text-center">
                 <span className="border-t-4 border-[#1DC0AD] px-5"></span>
                 <h1 className="text-[48px] -mt-6 font-[900]">Solusi Kami</h1>
@@ -114,10 +115,12 @@ const Home: NextPage = () => {
                 </div>
               </div>
               <div className="text-center">
-                <button className="text-[14px] text-white rounded-[10px] w-[200px] h-[50px] bg-[#1DC0AD] mx-auto">Lihat detailnya dong</button>
+                <Link to="two" spy={true} smooth={true} offset={50} duration={500} className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
+                  Lihat detailnya dong
+                </Link>
               </div>
             </div>
-            <div className="mt-72">
+            <div className="pt-48" id="two">
               <div className="text-center mb-20">
                 <span className="border-t-4 border-[#1DC0AD] px-5"></span>
                 <h1 className="text-[48px] -mt-6 font-[900]">Klien Kami</h1>
