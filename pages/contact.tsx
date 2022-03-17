@@ -39,7 +39,7 @@ function Contact() {
                   <div>
                     <div className="mt-10">
                       <div className=" mb-3">
-                        <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
+                        <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
                       </div>
                       <div className=" mb-3">
                         <input
