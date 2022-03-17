@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       </Head>
       <Layout>
         <div className="flex justify-center">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[300px]">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:block mt-32">
               <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] ">
