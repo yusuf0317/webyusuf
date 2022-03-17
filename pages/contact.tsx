@@ -36,39 +36,45 @@ function Contact() {
                     </div>
                     <p className="font-[400] text-[18px] mt-5">Kami selalu siap untuk menjawab segala pertanyaan dan kebutuhan kamu</p>
                   </div>
-                  <div className="mt-10 block lg:mr-20">
-                    <div className=" mb-3">
-                      <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
-                    </div>
-                    <div className=" mb-3">
-                      <input
-                        type="text"
-                        placeholder="beritahu nama organisasi kamu ..."
-                        className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
-                      />
-                    </div>
-                    <div className=" mb-3">
-                      <input
-                        type="text"
-                        placeholder="Beritahu kami peranmu di dalam organisasi ..."
-                        className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
-                      />
-                    </div>
-                    <div className=" mb-3">
-                      <input type="text" placeholder="Beritahu kami email kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
-                    </div>
-                    <div className="mb-3">
-                      <form>
-                        <select className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-black  rounded-[10px] px-5 font-[900]">
-                          <option value="volvo">Web Development</option>
-                          <option value="saab">Mobile Development</option>
-                          <option value="fiat">UI/UX Design</option>
-                          <option value="audi">Middleware</option>
-                        </select>
-                      </form>
-                    </div>
+                  <div>
                     <div className="mt-10">
-                      <button className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD] font-[900]">Aku siap! Kirimkan pesan!</button>
+                      <div className=" mb-3">
+                        <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[400px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
+                      </div>
+                      <div className=" mb-3">
+                        <input
+                          type="text"
+                          placeholder="beritahu nama organisasi kamu ..."
+                          className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                        />
+                      </div>
+                      <div className=" mb-3">
+                        <input
+                          type="text"
+                          placeholder="Beritahu kami peranmu di dalam organisasi ..."
+                          className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                        />
+                      </div>
+                      <div className=" mb-3">
+                        <input
+                          type="text"
+                          placeholder="Beritahu kami email kamu ..."
+                          className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                        />
+                      </div>
+                      <div className="mb-3">
+                        <form>
+                          <select className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-black  rounded-[10px] px-5 font-[900]">
+                            <option value="volvo">Web Development</option>
+                            <option value="saab">Mobile Development</option>
+                            <option value="fiat">UI/UX Design</option>
+                            <option value="audi">Middleware</option>
+                          </select>
+                        </form>
+                      </div>
+                      <div className="mt-10">
+                        <button className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD] font-[900]">Aku siap! Kirimkan pesan!</button>
+                      </div>
                     </div>
                   </div>
                 </div>
