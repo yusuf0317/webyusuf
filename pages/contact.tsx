@@ -20,7 +20,7 @@ function Contact() {
       </Head>
       <Layout>
         <div className="flex justify-center mt-44 mb-24">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
               <div className="md:order-last pb-10 flex justify-center">
