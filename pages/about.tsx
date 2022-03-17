@@ -22,7 +22,7 @@ function About() {
       </Head>
       <Layout>
         <div className="flex justify-center mt-56">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
               <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">

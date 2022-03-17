@@ -10,7 +10,7 @@ import img5 from "../img/solution/5.gif";
 import img6 from "../img/solution/6.gif";
 import img7 from "../img/home/19.png";
 import ScrollToTop from "react-scroll-to-top";
-import { Link, Element, scroller } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Solution() {
   return (
@@ -28,8 +28,8 @@ function Solution() {
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
         <div className="fixed top-[100px] z-10 flex justify-center bg-white items-center pt-5 shadow-md w-full">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] items-center">
-            <ul className="flex justify-between text-[14px] text-gray-400 lg:pb-5 md:pb-2  leading-10 overflow-x-auto wrapper font-[700]">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
+            <ul className="flex justify-between text-[14px] text-gray-400 lg:pb-5 md:pb-2 leading-10 overflow-x-auto wrapper font-[700]">
               <li className="min-w-[130px]  text-center mr-[15px]">
                 <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Web Development
@@ -63,8 +63,8 @@ function Solution() {
             </ul>
           </div>
         </div>
-        <Element name="myScrollToElement" className="flex justify-center -mt-14 pt-64 pb-52" id="web">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between md:flex-none">
+        <div className="flex justify-center -mt-14 pt-64 pb-52" id="web">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
             <div className="flex justify-center">
               <Image src={img1} />
             </div>
@@ -75,9 +75,9 @@ function Solution() {
               <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
             </div>
           </div>
-        </Element>
+        </div>
         <div className="background flex justify-center py-52" id="app">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className=" order-last mt-5">
               <Image src={img2} />
             </div>
@@ -90,7 +90,7 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center" id="ui">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className="mt-10">
               <Image src={img3} />
             </div>
@@ -103,7 +103,7 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center background" id="ml">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className=" order-last lg:mt-10">
               <Image src={img4} />
             </div>
@@ -116,7 +116,7 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center" id="fa">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div>
               <Image src={img5} />
             </div>
@@ -129,7 +129,7 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center background" id="bda">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] lg:flex justify-between">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className=" order-last lg:mt-10">
               <Image src={img6} />
             </div>

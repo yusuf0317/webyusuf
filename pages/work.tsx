@@ -33,7 +33,7 @@ function work() {
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
         <div className="flex justify-center">
-          <div className="py-16 lg:flex md:block mt-32 lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="py-16 lg:flex md:block mt-32 lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="mb-16 lg:w-[700px]">
               <div>
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">COLLABORATIUM</p>
@@ -93,7 +93,7 @@ function work() {
           </div>
         </div>
         <div className="flex justify-center background py-20">
-          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="md:order-last">
               <div>
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">PASSION</p>
@@ -159,7 +159,7 @@ function work() {
           </div>
         </div>
         <div className="flex justify-center py-32">
-          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] items-center">
+          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
             <div className="lg:w-[570px] mb-10">
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CLEAN CODE</p>
               <div className="leading-[40px]">
@@ -177,7 +177,7 @@ function work() {
           </div>
         </div>
         <div className="flex justify-center background py-20">
-          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="lg:w-[700px] md:order-last">
               <div className="lg:w-[300px]">
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">TECHNICAL EXPERTISE</p>
