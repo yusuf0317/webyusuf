@@ -163,20 +163,18 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center -mt-20 mb-28">
-              <div className="mb-7">
-                <Image src={img19} />
-              </div>
-              <div className="text-center">
-                <h1 className="text-[48px] -mt-6 font-[900]">Apakah kamu siap?</h1>
-                <p>
-                  Beritahu kami apa yang kamu mau bangun atau kesulitan
-                  <br />
-                  apa yang kamu hadapi
-                </p>
-              </div>
-              <div className="mt-14">
-                <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]">Hubungi Kami</button>
+            <div className="flex justify-center">
+              <div className="text-center -mt-20 mb-28 w-[450px]">
+                <div className="mb-7">
+                  <Image src={img19} />
+                </div>
+                <div className="text-center">
+                  <h1 className="text-[48px] -mt-6 font-[900]">Apakah kamu siap?</h1>
+                  <p>Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi</p>
+                </div>
+                <div className="mt-14">
+                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]">Hubungi Kami</button>
+                </div>
               </div>
             </div>
           </div>
