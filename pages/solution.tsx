@@ -141,8 +141,8 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="text-center -mt-20 mb-28 w-[450px]">
+        <div className="flex justify-center mt-44 mb-24 text-center">
+          <div className="lg:w-[450px] w-[350px]">
             <div>
               <Image src={img7} />
             </div>
