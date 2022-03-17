@@ -41,10 +41,10 @@ const Home: NextPage = () => {
       </Head>
       <Layout>
         <div className="flex justify-center">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
+          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[300px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:block mt-32">
-              <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px]">
+              <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] ">
                 <p className="text-[24px]">
                   <span className="font-[400]">Kami adalah</span>{" "}
                   <span className="font-[700] text-[#1DC0AD]" style={{ fontFamily: "Montserrat Alternates" }}>

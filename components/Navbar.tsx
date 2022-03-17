@@ -24,7 +24,7 @@ export const Navbar = () => {
       </Head>
       <div className="shadow-md fixed top-0 w-full bg-white z-[100] font-[700]">
         <div className="w-full flex justify-center">
-          <div className="flex justify-center items-center h-[100px] lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[250px]">
+          <div className="flex justify-center items-center h-[100px] lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px] border">
             <div className="flex items items-center justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
                 <Link href="/">
@@ -56,7 +56,7 @@ export const Navbar = () => {
                 </ul>
               </div>
             </div>
-            <div className="mr-10 md:hidden">
+            <div className="md:hidden">
               <button onClick={() => setIsOpen(!isOpen)} className="bg-[#1DC0AD] px-2 inline-flex items-center justify-center rounded-md text-white" aria-controls="mobile-menu" aria-aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
                 {!isOpen ? <i className="bx bx-menu text-2xl"></i> : <i className="bx bx-x text-2xl"></i>}
@@ -65,15 +65,7 @@ export const Navbar = () => {
           </div>
         </div>
         <div>
-          <Transition
-            show={isOpen}
-            enter="transition ease-out duration-100 transform"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="transition ease-in duration-75 transform"
-            leaveFrom="opacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
-          >
+          <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
             {(ref) => (
               <div className="md:hidden id=mobile-menu flex justify-center">
                 <ul className="bg-white lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[400px]">
