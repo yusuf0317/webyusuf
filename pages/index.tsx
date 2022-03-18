@@ -26,9 +26,13 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Home: NextPage = () => {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <div>

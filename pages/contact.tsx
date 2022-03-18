@@ -4,8 +4,16 @@ import Head from "next/head";
 import Image from "next/image";
 import img1 from "../img/contact/1.gif";
 import ScrollToTop from "react-scroll-to-top";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <Head>
@@ -23,29 +31,41 @@ function Contact() {
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
-              <div className="md:order-last pb-10 flex justify-center">
+              <div className="md:order-last pb-10 flex justify-center" data-aos="zoom-out" data-aos-duration="1000">
                 <Image src={img1} />
               </div>
               <div className="flex justify-center">
                 <div className="lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px]">
                   <div>
-                    <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CONTACT ME</p>
-                    <div className="leading-[40px]">
+                    <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-right" data-aos-duration="1000">
+                      CONTACT ME
+                    </p>
+                    <div className="leading-[40px]" data-aos="fade-left" data-aos-duration="1000">
                       <span className="font-[300] text-[48px]">Apakah </span>
                       <span className="font-[900] text-[48px]">kamu siap?</span>
                     </div>
-                    <p className="font-[400] text-[18px] mt-5">Kami selalu siap untuk menjawab segala pertanyaan dan kebutuhan kamu</p>
+                    <p className="font-[400] text-[18px] mt-5" data-aos="fade-right" data-aos-duration="1000">
+                      Kami selalu siap untuk menjawab segala pertanyaan dan kebutuhan kamu
+                    </p>
                   </div>
                   <div>
                     <div className="mt-10">
                       <div className=" mb-3">
-                        <input type="text" placeholder="beritahu nama kamu ..." className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]" />
+                        <input
+                          type="text"
+                          placeholder="beritahu nama kamu ..."
+                          className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
+                        />
                       </div>
                       <div className=" mb-3">
                         <input
                           type="text"
                           placeholder="beritahu nama organisasi kamu ..."
                           className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
                         />
                       </div>
                       <div className=" mb-3">
@@ -53,6 +73,8 @@ function Contact() {
                           type="text"
                           placeholder="Beritahu kami peranmu di dalam organisasi ..."
                           className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
                         />
                       </div>
                       <div className=" mb-3">
@@ -60,10 +82,12 @@ function Contact() {
                           type="text"
                           placeholder="Beritahu kami email kamu ..."
                           className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
                         />
                       </div>
                       <div className="mb-3">
-                        <form>
+                        <form data-aos="fade-up" data-aos-duration="1000">
                           <select className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-black  rounded-[10px] px-5 font-[900]">
                             <option value="volvo">Web Development</option>
                             <option value="saab">Mobile Development</option>
@@ -73,7 +97,9 @@ function Contact() {
                         </form>
                       </div>
                       <div className="mt-10">
-                        <button className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD] font-[900]">Aku siap! Kirimkan pesan!</button>
+                        <button className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border outline-none text-white px-5 rounded-[10px] bg-[#1DC0AD] font-[900]" data-aos="zoom-in" data-aos-duration="1000">
+                          Aku siap! Kirimkan pesan!
+                        </button>
                       </div>
                     </div>
                   </div>

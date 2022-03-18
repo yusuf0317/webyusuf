@@ -43,18 +43,22 @@ function work() {
         <div className="flex justify-center">
           <div className="py-16 lg:flex md:block mt-32 lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="mb-16 lg:w-[700px]">
-              <div data-aos="zoom-in-left" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">COLLABORATIUM</p>
-                <div className="leading-[40px]">
+              <div>
+                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
+                  COLLABORATIUM
+                </p>
+                <div className="leading-[40px]" data-aos="fade-right" data-aos-duration="1000">
                   <span className="font-[300] text-[48px]">Kami suka</span>
                   <br />
                   <span className="font-[900] text-[48px]">berkolaborasi</span>
                 </div>
-                <p className="font-[400] text-[18px] mt-5 lg:w-[500px]">Komunikasi dan transparasi adalah pondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi,ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!</p>
+                <p className="font-[400] text-[18px] mt-5 lg:w-[500px]" data-aos="fade-left" data-aos-duration="1000">
+                  Komunikasi dan transparasi adalah pondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi,ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
+                </p>
               </div>
               <span className="border-b-4 border-[#1DC0AD] px-5"></span>
               <div className="flex flex-wrap">
-                <div className="mt-7 mr-5">
+                <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
                     <Image src={img1} />
                   </div>
@@ -67,7 +71,7 @@ function work() {
                     kamu yang transparan
                   </p>
                 </div>
-                <div className="mt-7 mr-5">
+                <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
                     <Image src={img2} />
                   </div>
@@ -80,7 +84,7 @@ function work() {
                     yang telah dikerjakan
                   </p>
                 </div>
-                <div className="mt-7 mr-5">
+                <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
                     <Image src={img3} />
                   </div>
@@ -95,7 +99,7 @@ function work() {
                 </div>
               </div>
             </div>
-            <div className="lg:mt-24 flex justify-center">
+            <div className="lg:mt-24 flex justify-center" data-aos="zoom-out" data-aos-duration="1000">
               <Image src={img4} />
             </div>
           </div>
@@ -104,13 +108,15 @@ function work() {
           <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="md:order-last">
               <div>
-                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">PASSION</p>
-                <div className="leading-[40px]">
+                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-right" data-aos-duration="1000">
+                  PASSION
+                </p>
+                <div className="leading-[40px]" data-aos="fade-left" data-aos-duration="1000">
                   <span className="font-[300] text-[48px]">Kami membangun dengan</span>
                   <br />
                   <span className="font-[900] text-[48px]">sepenuh hati</span>
                 </div>
-                <p className="font-[400] text-[18px] mt-5">
+                <p className="font-[400] text-[18px] mt-5" data-aos="fade-right" data-aos-duration="1000">
                   membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami.
                   <br />
                   Kami suka (dengan penuh hasrat)membangun solusi luar biasa untuk
@@ -120,7 +126,7 @@ function work() {
               </div>
               <span className="border-b-4 border-[#1DC0AD] px-5"></span>
               <div className="flex flex-wrap">
-                <div className="mt-7 mr-5">
+                <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
                     <Image src={img1} />
                   </div>
@@ -133,7 +139,7 @@ function work() {
                     kami tinjau dan uji
                   </p>
                 </div>
-                <div className="mt-7 mr-5">
+                <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
                     <Image src={img2} />
                   </div>
@@ -146,7 +152,7 @@ function work() {
                     internasional
                   </p>
                 </div>
-                <div className="mt-7 mr-5">
+                <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
                     <Image src={img3} />
                   </div>
@@ -161,7 +167,7 @@ function work() {
                 </div>
               </div>
             </div>
-            <div className="lg:mt-10 flex justify-center">
+            <div className="lg:mt-10 flex justify-center" data-aos="zoom-out" data-aos-duration="1000">
               <Image src={img5} />
             </div>
           </div>
@@ -169,17 +175,19 @@ function work() {
         <div className="flex justify-center py-32">
           <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
             <div className="lg:w-[570px] mb-10">
-              <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">CLEAN CODE</p>
-              <div className="leading-[40px]">
+              <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
+                CLEAN CODE
+              </p>
+              <div className="leading-[40px]" data-aos="fade-right" data-aos-duration="1000">
                 <span className="font-[300] text-[48px]">Kami percaya dengan </span>
                 <span className="font-[900] text-[48px]">kode yang bersih</span>
               </div>
-              <p className="font-[400] text-[18px] mt-5">
+              <p className="font-[400] text-[18px] mt-5" data-aos="fade-right" data-aos-duration="1000">
                 Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan berwarna yang menumpuk - kami belajar dari pengalaman, Fokus kami adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya akan membuat
                 tenang tim IT kamu juga) demi produk yang berjangka panjang dan dapat selalu dikembangkan.
               </p>
             </div>
-            <div>
+            <div data-aos="zoom-out" data-aos-duration="1000">
               <Image src={img6} />
             </div>
           </div>
@@ -188,21 +196,25 @@ function work() {
           <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="lg:w-[700px] md:order-last">
               <div className="lg:w-[300px]">
-                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">TECHNICAL EXPERTISE</p>
-                <div className="leading-[40px]">
+                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
+                  TECHNICAL EXPERTISE
+                </p>
+                <div className="leading-[40px]" data-aos="fade-right" data-aos-duration="1000">
                   <span className="font-[300] text-[48px]">Kemampuan </span>
                   <span className="font-[900] text-[48px]">teknis kami</span>
                 </div>
-                <p className="font-[400] text-[18px] mt-5">Kami tidak akan pernah berhenti belajar bahasa dan teknologi terbaru agar dapat memberikan solusi yang terbaik bagi kamu</p>
+                <p className="font-[400] text-[18px] mt-5" data-aos="fade-left" data-aos-duration="1000">
+                  Kami tidak akan pernah berhenti belajar bahasa dan teknologi terbaru agar dapat memberikan solusi yang terbaik bagi kamu
+                </p>
               </div>
               <span className="border-b-4 border-[#1DC0AD] px-5"></span>
               <div className="mt-7 lg:flex md:flex sm:block">
                 <div className="mr-14">
-                  <div className="mb-7">
+                  <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Mobile Development</p>
                     <p className="font-[400] text-[14px]">Flutter, Dart, Kotlin</p>
                   </div>
-                  <div className="mb-7">
+                  <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Framework Backend & Frontend</p>
                     <p className="font-[400] text-[14px]">
                       Laravel, Django, Flask, Next JS, Nuxt JS,
@@ -210,40 +222,40 @@ function work() {
                       React JS, Vue JS, Angular JS
                     </p>
                   </div>
-                  <div className="mb-7">
+                  <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Programming Language Development</p>
                     <p className="font-[400] text-[14px]">PHP, Node JS, Golang, Python, Javascript</p>
                   </div>
-                  <div className="mb-7">
+                  <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Middleware</p>
                     <p className="font-[400] text-[14px]">Spatial Laravel, JSON Web Token (JWT)</p>
                   </div>
                 </div>
                 <div>
-                  <div className="mb-4">
+                  <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Database</p>
                     <p className="font-[400] text-[14px]">MySQL, PostgreSQL, Redis DB</p>
                   </div>
-                  <div className="mb-4">
+                  <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Framework CSS</p>
                     <p className="font-[400] text-[14px]">Tailwind CSS, Bootstrap 5</p>
                   </div>
-                  <div className="mb-4">
+                  <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Stack</p>
                     <p className="font-[400] text-[14px]">MERN, MEVN, MEAN, TALL</p>
                   </div>
-                  <div className="mb-3">
+                  <div className="mb-3" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Notification</p>
                     <p className="font-[400] text-[14px]">Firebase</p>
                   </div>
-                  <div className="mb-4">
+                  <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[18px] text-[#1DC0AD] font-[900]">Design</p>
                     <p className="font-[400] text-[14px]">Figma, Zeplin</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="lg:mt-32">
+            <div className="lg:mt-32" data-aos="zoom-out" data-aos-duration="1000">
               <Image src={img7} />
             </div>
           </div>
@@ -251,12 +263,14 @@ function work() {
         <div className="pt-32">
           <div className="text-center mb-20">
             <span className="border-t-4 border-[#1DC0AD] px-5"></span>
-            <h1 className="text-[48px] -mt-6 font-[900]">Alat Kolaborasi</h1>
+            <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-right" data-aos-duration="1000">
+              Alat Kolaborasi
+            </h1>
           </div>
           <div className="flex justify-center">
             <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
               <div className="flex flex-wrap justify-between">
-                <div className="py-3 ">
+                <div className="py-3 " data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img8} />
                   </div>
@@ -271,7 +285,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3  ">
+                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img9} />
                   </div>
@@ -288,7 +302,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3">
+                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img10} />
                   </div>
@@ -302,7 +316,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3">
+                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img11} />
                   </div>
@@ -316,7 +330,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3  ">
+                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img12} />
                   </div>
@@ -337,16 +351,20 @@ function work() {
         </div>
         <div className="text-center">
           <div>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
               <Image src={img13} />
             </div>
-            <h1 className="text-[48px] font-[900]">Apakah kamu siap?</h1>
-            <p>
+            <h1 className="text-[48px] font-[900]" data-aos="fade-right" data-aos-duration="1000">
+              Apakah kamu siap?
+            </h1>
+            <p data-aos="fade-left" data-aos-duration="1000">
               Beritahu kami apa yang mau kamu bangun atau kesulitan
               <br />
               apa yang kamu hadapi
             </p>
-            <button className="w-[150px] h-[55.4px] border font-[700] border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20">Hubungi Kami</button>
+            <button className="w-[150px] h-[55.4px] border font-[700] border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20" data-aos="zoom-in" data-aos-duration="1000">
+              Hubungi Kami
+            </button>
           </div>
         </div>
       </Layout>

@@ -13,9 +13,13 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Solution() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div>
       <Head>
@@ -163,6 +167,7 @@ function Solution() {
           </div>
         </div>
       </Layout>
+      <script>AOS.init();</script>
     </div>
   );
 }
