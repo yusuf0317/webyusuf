@@ -18,8 +18,14 @@ import img13 from "../img/home/19.png";
 import ScrollToTop from "react-scroll-to-top";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function work() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <Head>
