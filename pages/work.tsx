@@ -16,6 +16,8 @@ import img11 from "../img/work/8.png";
 import img12 from "../img/work/9.png";
 import img13 from "../img/home/19.png";
 import ScrollToTop from "react-scroll-to-top";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function work() {
   return (
@@ -35,7 +37,7 @@ function work() {
         <div className="flex justify-center">
           <div className="py-16 lg:flex md:block mt-32 lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="mb-16 lg:w-[700px]">
-              <div>
+              <div data-aos="zoom-in-left" data-aos-duration="1000">
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">COLLABORATIUM</p>
                 <div className="leading-[40px]">
                   <span className="font-[300] text-[48px]">Kami suka</span>

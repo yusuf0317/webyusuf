@@ -6,8 +6,11 @@ import img2 from "../img/work/icn1.png";
 import img3 from "../img/work/icn2.png";
 import img4 from "../img/home/19.png";
 import ScrollToTop from "react-scroll-to-top";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  AOS.init();
   return (
     <div>
       <Head>
@@ -26,7 +29,7 @@ function About() {
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
               <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1000">
                   <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
                   <div className="leading-[40px]">
                     <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua. dan sadar bahwa</span>
@@ -34,8 +37,8 @@ function About() {
                   </div>
                 </div>
                 <span className="border-b-4 border-[#1DC0AD] px-5"></span>
-                <div className="">
-                  <div className="mt-7">
+                <div>
+                  <div className="mt-7" data-aos="fade-left" data-aos-duration="1000">
                     <div className="mb-2">
                       <Image src={img2} />
                     </div>
@@ -50,7 +53,7 @@ function About() {
                       juga menjadi lawan diskusi dari para rekan kami.
                     </p>
                   </div>
-                  <div className="mt-7">
+                  <div className="mt-7" data-aos="fade-right" data-aos-duration="1000">
                     <div className="mb-2">
                       <Image src={img3} />
                     </div>
@@ -65,22 +68,26 @@ function About() {
                   </div>
                 </div>
               </div>
-              <div>
+              <div data-aos="zoom-in" data-aos-duration="1000">
                 <Image src={img1} />
               </div>
             </div>
             <div className="text-center">
               <div>
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                   <Image src={img4} />
                 </div>
-                <h1 className="text-[48px] font-[900]">Apakah kamu siap?</h1>
-                <p>
+                <h1 className="text-[48px] font-[900]" data-aos="fade-right" data-aos-duration="1000">
+                  Apakah kamu siap?
+                </h1>
+                <p data-aos="fade-left" data-aos-duration="1000">
                   Beritahu kami apa yang mau kamu bangun atau kesulitan
                   <br />
                   apa yang kamu hadapi
                 </p>
-                <button className="w-[150px] h-[55.4px] border border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20">Hubungi Kami</button>
+                <button className="w-[150px] h-[55.4px] border border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20" data-aos="zoom-in" data-aos-duration="1000">
+                  Hubungi Kami
+                </button>
               </div>
             </div>
           </div>

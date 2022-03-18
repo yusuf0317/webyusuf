@@ -86,8 +86,13 @@ export const Navbar = () => {
                     <span className={`text-center ${router.pathname == "/about" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-9 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
                   </li>
                   <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/solution" ? "text-[#1DC0AD]" : ""}`}>
-                    <Link href="/solution">Solusi Kami</Link>
-                    <span className={`text-center ${router.pathname == "/solution" ? "ml-7 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "ml-7 border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
+                    <div className="flex items-center font">
+                      <Link href="/solution">Solusi Kami</Link>
+                      <i className="bx bx-chevron-down ml-2 text-[30px]"></i>
+                    </div>
+                    <div>
+                      <span className={`${router.pathname == "/solution" ? "ml-9 border-[#1DC0AD] border-b-[3px] flex justify-center w-10 pt-1" : "border-white border-b-[3px] flex justify-center w-10 pt-1"}`}></span>
+                    </div>
                   </li>
                   <li className={`cursor-pointer py-2 text-[18px] ${router.pathname == "/work" ? "text-[#1DC0AD]" : ""}`}>
                     <Link href="/work">Cara Kerja</Link>

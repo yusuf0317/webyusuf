@@ -24,8 +24,12 @@ import img19 from "../img/home/19.png";
 import Layout from "../components/Layout";
 import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home: NextPage = () => {
+  AOS.init();
+
   return (
     <div>
       <Head>
@@ -45,7 +49,7 @@ const Home: NextPage = () => {
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:block mt-32">
-              <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] ">
+              <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                 <p className="text-[24px]">
                   <span className="font-[400]">Kami adalah</span>{" "}
                   <span className="font-[700] text-[#1DC0AD]" style={{ fontFamily: "Montserrat Alternates" }}>
@@ -59,53 +63,55 @@ const Home: NextPage = () => {
                   </Link>
                 </div>
               </div>
-              <div className="pt-10 relative z-50 flex justify-center">
+              <div className="pt-10 relative z-50 flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
                 <Image src={heading} />
               </div>
             </div>
             <div className="pt-48" id="one">
               <div className="text-center">
-                <span className="border-t-4 border-[#1DC0AD] px-5"></span>
-                <h1 className="text-[48px] -mt-6 font-[900]">Solusi Kami</h1>
+                <span className="border-t-4 border-[#1DC0AD] px-5" data-aos="fade-right" data-aos-duration="1000"></span>
+                <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-left" data-aos-duration="1000">
+                  Solusi Kami
+                </h1>
               </div>
               <div>
                 <div className="mt-24 flex flex-wrap justify-center">
-                  <div className="mb-24 mx-5">
+                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img1} />
                     <div className="flex items-center">
                       <i className="bi bi-calendar4-week border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">Web Development</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5">
+                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img2} />
                     <div className="flex items-center">
                       <i className="bi bi-phone border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">App Development</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5">
+                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img3} />
                     <div className="flex items-center">
                       <i className="bi bi-vector-pen border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">UI/UX Design</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5">
+                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img4} />
                     <div className="flex items-center">
                       <i className="bi bi-arrow-clockwise border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">Machine Learning</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5">
+                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img5} />
                     <div className="flex items-center">
                       <i className="bi bi-gear border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">Workflow Automation</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5">
+                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img6} />
                     <div className="flex items-center">
                       <i className="bi bi-megaphone border border-black py-3 px-4 rounded-[50%]"></i>
@@ -114,7 +120,7 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center" data-aos="zoom-in-down" data-aos-duration="1000">
                 <Link to="two" spy={true} smooth={true} offset={50} duration={500} className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
                   Lihat detailnya dong
                 </Link>
@@ -122,45 +128,47 @@ const Home: NextPage = () => {
             </div>
             <div className="pt-48" id="two">
               <div className="text-center mb-20">
-                <span className="border-t-4 border-[#1DC0AD] px-5"></span>
-                <h1 className="text-[48px] -mt-6 font-[900]">Klien Kami</h1>
+                <span className="border-t-4 border-[#1DC0AD] px-5" data-aos="fade-left" data-aos-duration="1000"></span>
+                <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-right" data-aos-duration="1000">
+                  Klien Kami
+                </h1>
               </div>
               <div className="mt-10">
                 <div className="flex flex-wrap justify-center">
-                  <div className="mb-20 mx-8">
+                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img7} />
                   </div>
-                  <div className="mb-20 mx-8">
+                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img8} />
                   </div>
-                  <div className="mb-20 mx-8">
+                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img9} />
                   </div>
-                  <div className="mb-20 mx-8">
+                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img10} />
                   </div>
-                  <div className="mb-20 mx-8">
+                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img11} />
                   </div>
-                  <div className="mb-20 mx-8">
+                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img12} />
                   </div>
-                  <div className="mb-20 mx-7">
+                  <div className="mb-20 mx-7" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img13} />
                   </div>
-                  <div className="mb-20 mx-7">
+                  <div className="mb-20 mx-7" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img14} />
                   </div>
-                  <div className="mb-20  mx-7">
+                  <div className="mb-20  mx-7" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img15} />
                   </div>
-                  <div className="mb-20 mx-7">
+                  <div className="mb-20 mx-7" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img16} />
                   </div>
-                  <div className="mb-20 mx-7">
+                  <div className="mb-20 mx-7" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img17} />
                   </div>
-                  <div className="mb-20 mx-7">
+                  <div className="mb-20 mx-7" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img18} />
                   </div>
                 </div>
@@ -168,15 +176,21 @@ const Home: NextPage = () => {
             </div>
             <div className="flex justify-center">
               <div className="text-center -mt-20 mb-28 w-[450px]">
-                <div className="mb-7">
+                <div className="mb-7" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                   <Image src={img19} />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-[48px] -mt-6 font-[900]">Apakah kamu siap?</h1>
-                  <p>Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi</p>
+                  <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-right" data-aos-duration="1000">
+                    Apakah kamu siap?
+                  </h1>
+                  <p data-aos="fade-left" data-aos-duration="1000">
+                    Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi
+                  </p>
                 </div>
                 <div className="mt-14">
-                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]">Hubungi Kami</button>
+                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]" data-aos="zoom-in" data-aos-duration="1000">
+                    Hubungi Kami
+                  </button>
                 </div>
               </div>
             </div>
