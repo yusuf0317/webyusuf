@@ -32,11 +32,11 @@ function About() {
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
-              <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16">
+              <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16 mr-11">
                 <div data-aos="fade-right" data-aos-duration="1000">
                   <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
                   <div className="leading-[40px]">
-                    <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua. dan sadar bahwa</span>
+                    <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua, dan sadar bahwa</span>
                     <span className="font-[900] text-[34px]"> kami dapat membuat perubahan dengan memberikan layanan teknologi yang berkualitas</span>
                   </div>
                 </div>

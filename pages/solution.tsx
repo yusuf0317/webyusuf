@@ -14,6 +14,7 @@ import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Red from "./solution/main";
 
 function Solution() {
   useEffect(() => {
@@ -34,35 +35,35 @@ function Solution() {
       </Head>
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="fixed top-[100px] z-10 flex justify-center bg-white items-center pt-5 shadow-md w-full">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center h-[60px]">
-            <ul className="flex justify-between text-[14px] text-gray-400 items-center leading-10 overflow-x-auto wrapper font-[700]">
-              <li className="min-w-[130px]  text-center mr-[15px]">
+        <div className="fixed top-[80px] z-10 flex justify-center pt-5 shadow-md w-full bg-white">
+          <div className="bg-white lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] h-[60px] items-center">
+            <ul className="text-[14px] text-gray-400 leading-10 overflow-x-auto wrapper font-[700] flex justify-between pt-[10px]">
+              <li className="min-w-[130px]  text-center">
                 <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Web Development
                 </Link>
               </li>
-              <li className="min-w-[130px]  text-center mr-[15px]">
+              <li className="min-w-[130px]  text-center">
                 <Link to="app" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   App Development
                 </Link>
               </li>
-              <li className="min-w-[100px]  text-center mr-[15px]">
+              <li className="min-w-[100px]  text-center">
                 <Link to="ui" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   UI/UX Design
                 </Link>
               </li>
-              <li className="min-w-[125px]  text-center mr-[15px]">
+              <li className="min-w-[125px]  text-center">
                 <Link to="ml" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Machine Learning
                 </Link>
               </li>
-              <li className="min-w-[125px]  text-center mr-[15px]">
+              <li className="min-w-[125px]  text-center">
                 <Link to="fa" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Flow Automation
                 </Link>
               </li>
-              <li className="min-w-[170px] -2 text-center">
+              <li className="min-w-[170px] text-center">
                 <Link to="bda" spy={true} smooth={true} offset={50} duration={500} delay={10} isDynamic={true} ignoreCancelEvents={false} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Branding & Digitals Ads
                 </Link>
@@ -70,25 +71,27 @@ function Solution() {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center -mt-14 pt-64 pb-52" id="web">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
-            <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+        <main className="flex justify-center" id="web">
+          <div className="lg:w-[1024px]  -mt-14 pt-64 pb-52 md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
+            <div className="flex justify-center mr-10" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img1} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[600px]" data-aos="fade-left" data-aos-duration="1000">
-              <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
-              <h1 className="text-[48px] font-[900] leading-[65.47px]">Kami siap untuk punya website?</h1>
-              <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita bust itu semua jadi kenyataan</p>
-              <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
+            <div>
+              <div className="mt-16 mb-10 lg:w-[570px]" data-aos="fade-left" data-aos-duration="1000">
+                <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
+                <h1 className="text-[48px] font-[900] leading-[65.47px]">Kami siap untuk punya website?</h1>
+                <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita buat itu semua jadi kenyataan</p>
+                <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
         <div className="background flex justify-center py-52" id="app">
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className=" order-last mt-5" data-aos="fade-left" data-aos-duration="1000">
               <Image src={img2} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[700px]" data-aos="fade-right" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">APP DEVELOPMENT</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">"Bangun Aplikasi itu susah", kata mereka, bukan kami</h1>
               <p className="font-[400] text-[18px] ">Saat ini (hampir) semua orang itu pasti memiliki ponsel dan akan selalu membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
@@ -98,10 +101,10 @@ function Solution() {
         </div>
         <div className="py-52 flex justify-center" id="ui">
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div className="mt-10" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-10 mr-12" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img3} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[610px]" data-aos="fade-left" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-left" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">UI/UX DESIGN</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih ?</h1>
               <p className="font-[400] text-[18px] ">Apa yang dilihat pertama kali oleh pengunjung ketika mereka membuka sesuatu website/aplikasi? Jelas penampilannya dan kemudian penggunaanya</p>
@@ -114,17 +117,17 @@ function Solution() {
             <div className=" order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
               <Image src={img4} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[610px]" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[585px] mr-10" data-aos="fade-right" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">MEACHING LEARNING</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Buat mesin bekerja untuk kamu, bukan sebaliknya</h1>
-              <p className="font-[400] text-[18px] ">Rasanya ingin mengajarkan mesin untuk bekerja dengan sendirinya tanpa perlu ada kerjaan tambahan ?</p>
+              <p className="font-[400] text-[18px] lg:w-[580px]">Rasanya ingin mengajarkan mesin untuk bekerja dengan sendirinya tanpa perlu ada kerjaan tambahan ?</p>
               <button className="w-[150px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ajari mesin kami!</button>
             </div>
           </div>
         </div>
         <div className="py-52 flex justify-center" id="fa">
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div data-aos="fade-right" data-aos-duration="1000">
+            <div className="mr-10 mt-10" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img5} />
             </div>
             <div className="mt-16 mb-10 lg:w-[610px]" data-aos="fade-left" data-aos-duration="1000">
@@ -137,10 +140,10 @@ function Solution() {
         </div>
         <div className="py-52 flex justify-center background" id="bda">
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div className=" order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
+            <div className=" order-last lg:mt-10 ml-10" data-aos="fade-left" data-aos-duration="1000">
               <Image src={img6} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[610px]" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 w-[590px]" data-aos="fade-right" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">BRANDING & DIGITAL ADS</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Ingin berkomunikasi lebih baik dengan konsumen?</h1>
               <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan denagn konsumen. Mau tahu lebih?</p>
@@ -166,8 +169,8 @@ function Solution() {
             </button>
           </div>
         </div>
+        <Red />
       </Layout>
-      <script>AOS.init();</script>
     </div>
   );
 }
