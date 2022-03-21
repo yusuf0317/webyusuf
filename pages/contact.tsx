@@ -49,7 +49,7 @@ function Contact() {
                     </p>
                   </div>
                   <div>
-                    <div className="mt-10">
+                    <div className="mt-10" data-aos="fade-up" data-aos-duration="1000">
                       <div className=" mb-3">
                         <input
                           type="text"
@@ -64,8 +64,6 @@ function Contact() {
                           type="text"
                           placeholder="beritahu nama organisasi kamu ..."
                           className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
-                          data-aos="fade-up"
-                          data-aos-duration="1000"
                         />
                       </div>
                       <div className=" mb-3">
@@ -73,8 +71,6 @@ function Contact() {
                           type="text"
                           placeholder="Beritahu kami peranmu di dalam organisasi ..."
                           className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
-                          data-aos="fade-up"
-                          data-aos-duration="1000"
                         />
                       </div>
                       <div className=" mb-3">
@@ -82,12 +78,10 @@ function Contact() {
                           type="text"
                           placeholder="Beritahu kami email kamu ..."
                           className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-[#9B9B9B] px-5 rounded-[10px]"
-                          data-aos="fade-up"
-                          data-aos-duration="1000"
                         />
                       </div>
                       <div className="mb-3">
-                        <form data-aos="fade-up" data-aos-duration="1000">
+                        <form>
                           <select className="text-[18px] lg:w-[500px] md:w-[500px] sm:w-[500px] w-[350px] h-[60px] border-[#9B9B9B] border outline-none text-black  rounded-[10px] px-5 font-[900]">
                             <option value="volvo">Web Development</option>
                             <option value="saab">Mobile Development</option>

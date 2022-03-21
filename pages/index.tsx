@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                     Art By Code | ABC
                   </span>
                 </p>
-                <h1 className="text-[48px] mt-7 font-[900]">Ayo Ciptakan sesuatu yang indah dari sebuah kode</h1>
+                <h1 className="text-[48px] mt-7 font-[900]">Ayo ciptakan sesuatu yang indah dari sebuah kode</h1>
                 <div className="mt-[44px]">
                   <Link to="one" spy={true} smooth={true} offset={50} duration={500} className="mt-[44px] w-[200px] h-[50px] rounded-[10px] text-white bg-[#1DC0AD] text-[14px] px-[30px] py-[14px]">
                     Mau tau lebih banyak

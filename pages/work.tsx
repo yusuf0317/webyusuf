@@ -53,7 +53,7 @@ function work() {
                   <span className="font-[900] text-[48px]">berkolaborasi</span>
                 </div>
                 <p className="font-[400] text-[18px] mt-5 lg:w-[500px]" data-aos="fade-left" data-aos-duration="1000">
-                  Komunikasi dan transparasi adalah pondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi,ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
+                  Komunikasi dan transparasi adalah pondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
                 </p>
               </div>
               <span className="border-b-4 border-[#1DC0AD] px-5"></span>
@@ -106,7 +106,7 @@ function work() {
         </div>
         <div className="flex justify-center background py-20">
           <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
-            <div className="md:order-last">
+            <div className="md:order-last ml-10 lg:w-[630px]">
               <div>
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-right" data-aos-duration="1000">
                   PASSION
@@ -117,11 +117,7 @@ function work() {
                   <span className="font-[900] text-[48px]">sepenuh hati</span>
                 </div>
                 <p className="font-[400] text-[18px] mt-5" data-aos="fade-right" data-aos-duration="1000">
-                  membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami.
-                  <br />
-                  Kami suka (dengan penuh hasrat)membangun solusi luar biasa untuk
-                  <br />
-                  orang-orang luar biasa!
+                  membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami. Kami suka (dengan penuh hasrat)membangun solusi luar biasa untuk orang-orang luar biasa!
                 </p>
               </div>
               <span className="border-b-4 border-[#1DC0AD] px-5"></span>
@@ -174,28 +170,29 @@ function work() {
         </div>
         <div className="flex justify-center py-32">
           <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
-            <div className="lg:w-[570px] mb-10">
+            <div className="lg:w-[720px] mb-10 mr-14">
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
                 CLEAN CODE
               </p>
               <div className="leading-[40px]" data-aos="fade-right" data-aos-duration="1000">
                 <span className="font-[300] text-[48px]">Kami percaya dengan </span>
+                <br />
                 <span className="font-[900] text-[48px]">kode yang bersih</span>
               </div>
               <p className="font-[400] text-[18px] mt-5" data-aos="fade-right" data-aos-duration="1000">
-                Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan berwarna yang menumpuk - kami belajar dari pengalaman, Fokus kami adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya akan membuat
+                Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan berwarna yang menumpuk - kami belajar dari pengalaman. Fokus kami adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya akan membuat
                 tenang tim IT kamu juga) demi produk yang berjangka panjang dan dapat selalu dikembangkan.
               </p>
             </div>
-            <div data-aos="zoom-out" data-aos-duration="1000">
+            <div className="ml-10" data-aos="zoom-out" data-aos-duration="1000">
               <Image src={img6} />
             </div>
           </div>
         </div>
         <div className="flex justify-center background py-20">
           <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
-            <div className="lg:w-[700px] md:order-last">
-              <div className="lg:w-[300px]">
+            <div className="lg:w-[600px] ml-20 md:order-last">
+              <div className="lg:w-[280px]">
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
                   TECHNICAL EXPERTISE
                 </p>
