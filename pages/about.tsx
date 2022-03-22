@@ -65,7 +65,7 @@ function About() {
                     <p className="text-[14px] font-[400] mt-2">
                       Bekerjalah dengan sepenuh hati integritas untuk memberikan hasil yang
                       <br />
-                      terbaik, karena kesuksesan rekankami akan menjadi pendiri kita untuk
+                      terbaik, karena kesuksesan rekan kami akan menjadi pendiri kita untuk
                       <br />
                       bisa lebih berkembang juga
                     </p>
