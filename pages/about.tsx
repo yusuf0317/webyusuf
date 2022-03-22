@@ -2,8 +2,8 @@ import Layout from "../components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import img1 from "../img/about/1.gif";
-import img2 from "../img/work/icn1.png";
-import img3 from "../img/work/icn2.png";
+import img2 from "../img/about/icn1.svg";
+import img3 from "../img/about/icn2.svg";
 import img4 from "../img/home/19.png";
 import ScrollToTop from "react-scroll-to-top";
 import AOS from "aos";
@@ -29,7 +29,7 @@ function About() {
       </Head>
       <Layout>
         <div className="flex justify-center mt-56">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
               <div className="lg:w-[600px] md:w-[650px] sm:w-[450px] mb-16 mr-11">

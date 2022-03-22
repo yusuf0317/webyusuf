@@ -15,6 +15,9 @@ import img10 from "../img/work/7.png";
 import img11 from "../img/work/8.png";
 import img12 from "../img/work/9.png";
 import img13 from "../img/home/19.png";
+import img14 from "../img/work/icn4.png";
+import img15 from "../img/work/icn5.png";
+import img16 from "../img/work/icn6.png";
 import ScrollToTop from "react-scroll-to-top";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -41,7 +44,7 @@ function work() {
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
         <div className="flex justify-center">
-          <div className="py-16 lg:flex md:block mt-32 lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
+          <div className="py-16 lg:flex md:block mt-32 lg:w-[1100px]  md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="mb-16 lg:w-[700px]">
               <div>
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
@@ -105,8 +108,8 @@ function work() {
           </div>
         </div>
         <div className="flex justify-center background py-20">
-          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
-            <div className="md:order-last ml-10 lg:w-[630px]">
+          <div className="lg:flex justify-between md:block lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
+            <div className="md:order-last lg:w-[630px]">
               <div>
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-right" data-aos-duration="1000">
                   PASSION
@@ -124,7 +127,7 @@ function work() {
               <div className="flex flex-wrap">
                 <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
-                    <Image src={img1} />
+                    <Image src={img14} />
                   </div>
                   <p className="font-[900] text-[18px]">Kualitas Kode</p>
                   <p className="text-[14px] font-[400] mt-2">
@@ -137,7 +140,7 @@ function work() {
                 </div>
                 <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
-                    <Image src={img2} />
+                    <Image src={img15} />
                   </div>
                   <p className="font-[900] text-[18px]">Tes Otomatis</p>
                   <p className="text-[14px] font-[400] mt-2">
@@ -150,7 +153,7 @@ function work() {
                 </div>
                 <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                   <div className="mb-2">
-                    <Image src={img3} />
+                    <Image src={img16} />
                   </div>
                   <p className="font-[900] text-[18px]">Selalu Terkini</p>
                   <p className="text-[14px] font-[400] mt-2">
@@ -169,7 +172,7 @@ function work() {
           </div>
         </div>
         <div className="flex justify-center py-32">
-          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
+          <div className="lg:flex justify-between md:block lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] items-center">
             <div className="lg:w-[720px] mb-10 mr-14">
               <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
                 CLEAN CODE
@@ -190,8 +193,8 @@ function work() {
           </div>
         </div>
         <div className="flex justify-center background py-20">
-          <div className="lg:flex justify-between md:block lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
-            <div className="lg:w-[600px] ml-20 md:order-last">
+          <div className="lg:flex justify-between md:block lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
+            <div className="lg:w-[600px] md:order-last">
               <div className="lg:w-[280px]">
                 <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="fade-left" data-aos-duration="1000">
                   TECHNICAL EXPERTISE
@@ -265,9 +268,9 @@ function work() {
             </h1>
           </div>
           <div className="flex justify-center">
-            <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
-              <div className="flex flex-wrap justify-between">
-                <div className="py-3 " data-aos="fade-down" data-aos-duration="1000">
+            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
+              <div className="flex flex-wrap justify-center">
+                <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img8} />
                   </div>
@@ -282,7 +285,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
+                <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img9} />
                   </div>
@@ -299,7 +302,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
+                <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img10} />
                   </div>
@@ -313,7 +316,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
+                <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img11} />
                   </div>
@@ -327,7 +330,7 @@ function work() {
                     </p>
                   </div>
                 </div>
-                <div className="py-3" data-aos="fade-down" data-aos-duration="1000">
+                <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
                   <div>
                     <Image src={img12} />
                   </div>

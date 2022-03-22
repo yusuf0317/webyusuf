@@ -35,30 +35,30 @@ function Solution() {
       </Head>
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="fixed top-[80px] z-10 flex justify-center pt-5 shadow-md w-full bg-white">
-          <div className="bg-white lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] h-[60px] items-center">
+        <div className="fixed top-[80px] z-10 flex justify-center lg:pt-5 pt-0 shadow-md w-full bg-white">
+          <div className="bg-white lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] h-[60px] items-center">
             <ul className="text-[14px] text-gray-400 leading-10 overflow-x-auto wrapper font-[700] flex justify-between pt-[10px]">
-              <li className="min-w-[130px]  text-center">
+              <li className="min-w-[130px] mr-3 text-center">
                 <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
-                  Web Development
+                  Web Developments
                 </Link>
               </li>
-              <li className="min-w-[130px]  text-center">
+              <li className="min-w-[130px] mr-3  text-center">
                 <Link to="app" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   App Development
                 </Link>
               </li>
-              <li className="min-w-[100px]  text-center">
+              <li className="min-w-[100px]  mr-3 text-center">
                 <Link to="ui" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   UI/UX Design
                 </Link>
               </li>
-              <li className="min-w-[125px]  text-center">
+              <li className="min-w-[125px]  mr-3 text-center">
                 <Link to="ml" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Machine Learning
                 </Link>
               </li>
-              <li className="min-w-[125px]  text-center">
+              <li className="min-w-[125px]  mr-3 text-center">
                 <Link to="fa" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
                   Flow Automation
                 </Link>
@@ -72,11 +72,11 @@ function Solution() {
           </div>
         </div>
         <main className="flex justify-center" id="web">
-          <div className="lg:w-[1024px]  -mt-14 pt-64 pb-52 md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
-            <div className="flex justify-center mr-10" data-aos="fade-right" data-aos-duration="1000">
+          <div className="lg:w-[1100px] -mt-16 pt-80 pb-52 md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
+            <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img1} />
             </div>
-            <div>
+            <div className="mr-16">
               <div className="mt-16 mb-10 lg:w-[570px]" data-aos="fade-left" data-aos-duration="1000">
                 <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
                 <h1 className="text-[48px] font-[900] leading-[65.47px]">Kami siap untuk punya website?</h1>
@@ -87,11 +87,11 @@ function Solution() {
           </div>
         </main>
         <div className="background flex justify-center py-52" id="app">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className=" order-last mt-5" data-aos="fade-left" data-aos-duration="1000">
               <Image src={img2} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[700px]" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[700px] mr-16" data-aos="fade-right" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">APP DEVELOPMENT</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">"Bangun Aplikasi itu susah", kata mereka, bukan kami</h1>
               <p className="font-[400] text-[18px] ">Saat ini (hampir) semua orang itu pasti memiliki ponsel dan akan selalu membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
@@ -100,8 +100,8 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center" id="ui">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div className="mt-10 mr-12" data-aos="fade-right" data-aos-duration="1000">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className="mt-10 mr-16" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img3} />
             </div>
             <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-left" data-aos-duration="1000">
@@ -113,7 +113,7 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center background" id="ml">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
             <div className=" order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
               <Image src={img4} />
             </div>
@@ -126,21 +126,21 @@ function Solution() {
           </div>
         </div>
         <div className="py-52 flex justify-center" id="fa">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div className="mr-10 mt-10" data-aos="fade-right" data-aos-duration="1000">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className="mt-10" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img5} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[610px]" data-aos="fade-left" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[610px] mr-8" data-aos="fade-left" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">FLOW AUTOMATION</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu masih hobi ngerjain administrasi berulang?</h1>
-              <p className="font-[400] text-[18px] ">Biarkan proses administrasi manual dan tumpukan dokumen fisik menjadi cerita dan kenangan lama (jangan yang lain-lain ya)</p>
+              <p className="font-[400] text-[18px] lg:w-[550px] ">Biarkan proses administrasi manual dan tumpukan dokumen fisik menjadi cerita dan kenangan lama (jangan yang lain-lain ya)</p>
               <button className="w-[170px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ayo buat cerita baru!</button>
             </div>
           </div>
         </div>
         <div className="py-52 flex justify-center background" id="bda">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div className=" order-last lg:mt-10 ml-10" data-aos="fade-left" data-aos-duration="1000">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className=" order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
               <Image src={img6} />
             </div>
             <div className="mt-16 mb-10 w-[590px]" data-aos="fade-right" data-aos-duration="1000">

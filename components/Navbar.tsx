@@ -24,7 +24,7 @@ export const Navbar = () => {
       </Head>
       <div className="shadow-md fixed top-0 w-full bg-white z-[100] font-[700]">
         <div className="w-full flex justify-center">
-          <div className="flex justify-center items-center h-[100px] lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
+          <div className="flex justify-center items-center lg:h-[100px] md:h-[80px] sm:h-[80px] h-[80px] lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="flex items items-center justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
                 <Link href="/">
@@ -65,9 +65,9 @@ export const Navbar = () => {
               </div>
             </div>
             <div className="md:hidden">
-              <button onClick={() => setIsOpen(!isOpen)} className="bg-[#1DC0AD] px-2 inline-flex items-center justify-center rounded-md text-white" aria-controls="mobile-menu" aria-aria-expanded="false">
+              <button onClick={() => setIsOpen(!isOpen)} className="inline-flex items-center text-gray-400" aria-controls="mobile-menu" aria-aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
-                {!isOpen ? <i className="bx bx-menu text-2xl"></i> : <i className="bx bx-x text-2xl"></i>}
+                {!isOpen ? <i className="bx bx-menu text-4xl"></i> : <i className="bx bx-x text-4xl"></i>}
               </button>
             </div>
           </div>

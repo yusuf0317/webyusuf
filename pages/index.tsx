@@ -50,9 +50,9 @@ const Home: NextPage = () => {
       </Head>
       <Layout>
         <div className="flex justify-center">
-          <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px]">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-            <div className="lg:flex justify-between md:block mt-32">
+            <div className="lg:flex justify-between md:block mt-32 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
               <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                 <p className="text-[24px]">
                   <span className="font-[400]">Kami adalah</span>{" "}
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
                 <Image src={heading} />
               </div>
             </div>
-            <div className="pt-48" id="one">
+            <div className="pt-48 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]" id="one">
               <div className="text-center">
                 <span className="border-t-4 border-[#1DC0AD] px-5" data-aos="fade-right" data-aos-duration="1000"></span>
                 <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-left" data-aos-duration="1000">
@@ -79,43 +79,43 @@ const Home: NextPage = () => {
                 </h1>
               </div>
               <div>
-                <div className="mt-24 flex flex-wrap justify-center">
-                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                <div className="mt-24 flex flex-wrap lg:justify-between md:justify-center sm:justify-center justify-center">
+                  <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img1} />
                     <div className="flex items-center">
                       <i className="bi bi-calendar4-week border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">Web Development</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                  <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img2} />
                     <div className="flex items-center">
                       <i className="bi bi-phone border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">App Development</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                  <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img3} />
                     <div className="flex items-center">
                       <i className="bi bi-vector-pen border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">UI/UX Design</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                  <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img4} />
                     <div className="flex items-center">
                       <i className="bi bi-arrow-clockwise border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">Machine Learning</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                  <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img5} />
                     <div className="flex items-center">
                       <i className="bi bi-gear border border-black py-3 px-4 rounded-[50%]"></i>
                       <p className="ml-3 font-[900] text-[18px]">Workflow Automation</p>
                     </div>
                   </div>
-                  <div className="mb-24 mx-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                  <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img6} />
                     <div className="flex items-center">
                       <i className="bi bi-megaphone border border-black py-3 px-4 rounded-[50%]"></i>
@@ -130,7 +130,7 @@ const Home: NextPage = () => {
                 </Link>
               </div>
             </div>
-            <div className="pt-48" id="two">
+            <div className="pt-48 lg:w-[1100px]" id="two">
               <div className="text-center mb-20">
                 <span className="border-t-4 border-[#1DC0AD] px-5" data-aos="fade-left" data-aos-duration="1000"></span>
                 <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-right" data-aos-duration="1000">
@@ -138,23 +138,23 @@ const Home: NextPage = () => {
                 </h1>
               </div>
               <div className="mt-10">
-                <div className="flex flex-wrap justify-center">
-                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
+                <div className="flex flex-wrap lg:justify-center md:justify-center sm:justify-center justify-center">
+                  <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img7} />
                   </div>
-                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img8} />
                   </div>
-                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img9} />
                   </div>
-                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img10} />
                   </div>
-                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img11} />
                   </div>
-                  <div className="mb-20 mx-8" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img12} />
                   </div>
                   <div className="mb-20 mx-7" data-aos="zoom-out" data-aos-duration="1000">
