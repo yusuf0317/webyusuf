@@ -79,7 +79,7 @@ function Solution() {
             <div className="mr-16">
               <div className="mt-16 mb-10 lg:w-[570px]" data-aos="fade-left" data-aos-duration="1000">
                 <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
-                <h1 className="text-[48px] font-[900] leading-[65.47px]">Kami siap untuk punya website?</h1>
+                <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu siap untuk punya website?</h1>
                 <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita buat itu semua jadi kenyataan</p>
                 <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
               </div>
@@ -106,7 +106,7 @@ function Solution() {
             </div>
             <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-left" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">UI/UX DESIGN</p>
-              <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih ?</h1>
+              <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih?</h1>
               <p className="font-[400] text-[18px] ">Apa yang dilihat pertama kali oleh pengunjung ketika mereka membuka sesuatu website/aplikasi? Jelas penampilannya dan kemudian penggunaanya</p>
               <button className="w-[140px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Mau kece dong!</button>
             </div>
@@ -146,7 +146,7 @@ function Solution() {
             <div className="mt-16 mb-10 w-[590px]" data-aos="fade-right" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">BRANDING & DIGITAL ADS</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Ingin berkomunikasi lebih baik dengan konsumen?</h1>
-              <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan denagn konsumen. Mau tahu lebih?</p>
+              <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan dengan konsumen. Mau tahu lebih?</p>
               <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Mau dong!</button>
             </div>
           </div>

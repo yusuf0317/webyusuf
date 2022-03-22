@@ -56,7 +56,7 @@ function work() {
                   <span className="font-[900] text-[48px]">berkolaborasi</span>
                 </div>
                 <p className="font-[400] text-[18px] mt-5 lg:w-[500px]" data-aos="fade-left" data-aos-duration="1000">
-                  Komunikasi dan transparasi adalah pondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
+                  Komunikasi dan transparasi adalah fondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
                 </p>
               </div>
               <span className="border-b-4 border-[#1DC0AD] px-5"></span>
