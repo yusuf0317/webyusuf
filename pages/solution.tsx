@@ -14,7 +14,6 @@ import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Red from "./solution/main";
 
 function Solution() {
   useEffect(() => {
@@ -72,7 +71,7 @@ function Solution() {
           </div>
         </div>
         <main className="flex justify-center" id="web">
-          <div className="lg:w-[1100px] -mt-16 pt-80 pb-52 md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
+          <div className="lg:w-[1100px] pt-52 pb-52 md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
             <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img1} />
             </div>
@@ -169,7 +168,6 @@ function Solution() {
             </button>
           </div>
         </div>
-        <Red />
       </Layout>
     </div>
   );

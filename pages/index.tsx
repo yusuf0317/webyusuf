@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                 </h1>
               </div>
               <div>
-                <div className="mt-24 flex flex-wrap lg:justify-between md:justify-center sm:justify-center justify-center">
+                <div className="mt-24 flex flex-wrap lg:justify-between justify-center">
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img1} />
                     <div className="flex items-center">
