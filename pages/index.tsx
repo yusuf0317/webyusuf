@@ -21,6 +21,7 @@ import img16 from "../img/home/16.png";
 import img17 from "../img/home/17.png";
 import img18 from "../img/home/18.png";
 import img19 from "../img/home/19.png";
+import img20 from "../img/home/b.png";
 import Layout from "../components/Layout";
 import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
@@ -43,7 +44,6 @@ const Home: NextPage = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;600&family=Nunito:wght@300&display=swap" rel="stylesheet" />
@@ -82,45 +82,21 @@ const Home: NextPage = () => {
                 <div className="mt-24 flex flex-wrap lg:justify-between justify-center">
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img1} />
-                    <div className="flex items-center">
-                      <i className="bi bi-calendar4-week border border-black py-3 px-4 rounded-[50%]"></i>
-                      <p className="ml-3 font-[900] text-[18px]">Web Development</p>
-                    </div>
                   </div>
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img2} />
-                    <div className="flex items-center">
-                      <i className="bi bi-phone border border-black py-3 px-4 rounded-[50%]"></i>
-                      <p className="ml-3 font-[900] text-[18px]">App Development</p>
-                    </div>
                   </div>
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img3} />
-                    <div className="flex items-center">
-                      <i className="bi bi-vector-pen border border-black py-3 px-4 rounded-[50%]"></i>
-                      <p className="ml-3 font-[900] text-[18px]">UI/UX Design</p>
-                    </div>
                   </div>
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img4} />
-                    <div className="flex items-center">
-                      <i className="bi bi-arrow-clockwise border border-black py-3 px-4 rounded-[50%]"></i>
-                      <p className="ml-3 font-[900] text-[18px]">Machine Learning</p>
-                    </div>
                   </div>
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img5} />
-                    <div className="flex items-center">
-                      <i className="bi bi-gear border border-black py-3 px-4 rounded-[50%]"></i>
-                      <p className="ml-3 font-[900] text-[18px]">Workflow Automation</p>
-                    </div>
                   </div>
                   <div className="mb-24 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                     <Image src={img6} />
-                    <div className="flex items-center">
-                      <i className="bi bi-megaphone border border-black py-3 px-4 rounded-[50%]"></i>
-                      <p className="ml-3 font-[900] text-[18px]">Branding & Digital Ads</p>
-                    </div>
                   </div>
                 </div>
               </div>
