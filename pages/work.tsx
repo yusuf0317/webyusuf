@@ -22,7 +22,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-function work() {
+function Work() {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -371,4 +371,4 @@ function work() {
   );
 }
 
-export default work;
+export default Work;

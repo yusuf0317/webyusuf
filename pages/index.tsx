@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import heading from "../img/home/Header.gif";
@@ -21,7 +20,6 @@ import img16 from "../img/home/16.png";
 import img17 from "../img/home/17.png";
 import img18 from "../img/home/18.png";
 import img19 from "../img/home/19.png";
-import img20 from "../img/home/b.png";
 import Layout from "../components/Layout";
 import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
@@ -29,7 +27,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const Home: NextPage = () => {
+const Home = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
