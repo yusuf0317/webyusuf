@@ -34,7 +34,7 @@ function Solution() {
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
         <div className="fixed top-[80px] z-10 flex justify-center lg:pt-5 pt-0 shadow-md w-full bg-white">
-          <div className="bg-white lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] h-[60px] items-center">
+          <div className="bg-white lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[500px] h-[60px] items-center">
             <ul className="text-[14px] text-gray-400 leading-10 overflow-x-auto wrapper font-[700] flex justify-between pt-[10px]">
               <li className="min-w-[130px] mr-3 text-center">
                 <Link to="web" spy={true} smooth={true} offset={50} duration={500} activeClass="text-[#1DC0AD] border-b-[3px] border-[#1DC0AD]">
@@ -69,8 +69,8 @@ function Solution() {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center items-center pt-64 pb-60 -mt-[50px]" id="web">
-          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
+        <div className="flex justify-center w-full pt-64 pb-60 -mt-[50px]" id="web">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[500px] bg-red-300 lg:flex justify-between md:flex-none">
             <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
               <Image src={img1} />
             </div>
