@@ -106,7 +106,7 @@ function Work() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center background py-20">
+        <div className="flex justify-center bg py-20">
           <div className="lg:flex justify-between md:block lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="md:order-last lg:w-[630px]">
               <div>
@@ -191,7 +191,7 @@ function Work() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center background py-20">
+        <div className="flex justify-center bg py-20">
           <div className="lg:flex justify-between md:block lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="lg:w-[600px] md:order-last">
               <div className="lg:w-[280px]">
@@ -259,7 +259,7 @@ function Work() {
             </div>
           </div>
         </div>
-        <div className="pt-32">
+        <div className="pt-32 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
           <div className="text-center mb-20">
             <span className="border-t-4 border-[#1DC0AD] px-5"></span>
             <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-right" data-aos-duration="1000">
@@ -349,7 +349,7 @@ function Work() {
           </div>
         </div>
         <div className="text-center">
-          <div>
+          <div className="lg:w-[450px] w-[350px]">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
               <Image src={img13} />
             </div>
