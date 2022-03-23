@@ -48,7 +48,7 @@ const Home = () => {
       </Head>
       <Layout>
         <div className="flex justify-center">
-          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
+          <div className=" lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:block mt-32 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
               <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">

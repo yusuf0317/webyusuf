@@ -69,99 +69,87 @@ function Solution() {
             </ul>
           </div>
         </div>
-        <section id="web" className="pt-64 pb-60 -mt-[50px]">
-          <div className="flex justify-center items-center">
-            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
-              <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
-                <Image src={img1} />
-              </div>
-              <div className="mr-16">
-                <div className="mt-16 mb-10 lg:w-[570px]" data-aos="fade-left" data-aos-duration="1000">
-                  <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
-                  <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu siap untuk punya website?</h1>
-                  <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita buat itu semua jadi kenyataan</p>
-                  <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
-                </div>
+        <div className="flex justify-center items-center pt-64 pb-60 -mt-[50px]" id="web">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none">
+            <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+              <Image src={img1} />
+            </div>
+            <div className="mr-16">
+              <div className="mt-16 mb-10 lg:w-[570px]" data-aos="fade-left" data-aos-duration="1000">
+                <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
+                <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu siap untuk punya website?</h1>
+                <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita buat itu semua jadi kenyataan</p>
+                <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Saya siap!</button>
               </div>
             </div>
           </div>
-        </section>
-        <section id="app">
-          <div className="background flex justify-center py-60">
-            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-              <div className=" order-last mt-5 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                <Image src={img2} />
-              </div>
-              <div className="mt-16 mb-10 lg:w-[700px] mr-16" data-aos="fade-right" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD]">APP DEVELOPMENT</p>
-                <h1 className="text-[48px] font-[900] leading-[65.47px]">"Bangun Aplikasi itu susah", kata mereka, bukan kami</h1>
-                <p className="font-[400] text-[18px] ">Saat ini (hampir) semua orang itu pasti memiliki ponsel dan akan selalu membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
-                <button className="w-[120px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ayo bangun!</button>
-              </div>
+        </div>
+        <div className="bg flex justify-center py-60" id="app">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className=" order-last mt-5 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+              <Image src={img2} />
+            </div>
+            <div className="mt-16 mb-10 lg:w-[700px] mr-16" data-aos="fade-right" data-aos-duration="1000">
+              <p className="font-[400] text-[12px] text-[#1DC0AD]">APP DEVELOPMENT</p>
+              <h1 className="text-[48px] font-[900] leading-[65.47px]">"Bangun Aplikasi itu susah", kata mereka, bukan kami</h1>
+              <p className="font-[400] text-[18px] ">Saat ini (hampir) semua orang itu pasti memiliki ponsel dan akan selalu membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
+              <button className="w-[120px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ayo bangun!</button>
             </div>
           </div>
-        </section>
-        <section id="ui">
-          <div className="flex justify-center  py-60">
-            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-              <div className="mt-10 mr-16 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
-                <Image src={img3} />
-              </div>
-              <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-left" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD]">UI/UX DESIGN</p>
-                <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih?</h1>
-                <p className="font-[400] text-[18px] ">Apa yang dilihat pertama kali oleh pengunjung ketika mereka membuka sesuatu website/aplikasi? Jelas penampilannya dan kemudian penggunaanya</p>
-                <button className="w-[140px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Mau kece dong!</button>
-              </div>
+        </div>
+        <div className="flex justify-center  py-60" id="ui">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className="mt-10 mr-16 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+              <Image src={img3} />
+            </div>
+            <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-left" data-aos-duration="1000">
+              <p className="font-[400] text-[12px] text-[#1DC0AD]">UI/UX DESIGN</p>
+              <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih?</h1>
+              <p className="font-[400] text-[18px] ">Apa yang dilihat pertama kali oleh pengunjung ketika mereka membuka sesuatu website/aplikasi? Jelas penampilannya dan kemudian penggunaanya</p>
+              <button className="w-[140px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Mau kece dong!</button>
             </div>
           </div>
-        </section>
-        <section id="ml">
-          <div className="flex justify-center background  py-60">
-            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-              <div className=" flex justify-center order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
-                <Image src={img4} />
-              </div>
-              <div className="mt-16 mb-10 lg:w-[585px] mr-10" data-aos="fade-right" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD]">MEACHING LEARNING</p>
-                <h1 className="text-[48px] font-[900] leading-[65.47px]">Buat mesin bekerja untuk kamu, bukan sebaliknya</h1>
-                <p className="font-[400] text-[18px] lg:w-[580px]">Rasanya ingin mengajarkan mesin untuk bekerja dengan sendirinya tanpa perlu ada kerjaan tambahan ?</p>
-                <button className="w-[150px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ajari mesin kami!</button>
-              </div>
+        </div>
+        <div className="flex justify-center bg py-60" id="ml">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className=" flex justify-center order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
+              <Image src={img4} />
+            </div>
+            <div className="mt-16 mb-10 lg:w-[585px] mr-10" data-aos="fade-right" data-aos-duration="1000">
+              <p className="font-[400] text-[12px] text-[#1DC0AD]">MEACHING LEARNING</p>
+              <h1 className="text-[48px] font-[900] leading-[65.47px]">Buat mesin bekerja untuk kamu, bukan sebaliknya</h1>
+              <p className="font-[400] text-[18px] lg:w-[580px]">Rasanya ingin mengajarkan mesin untuk bekerja dengan sendirinya tanpa perlu ada kerjaan tambahan ?</p>
+              <button className="w-[150px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ajari mesin kami!</button>
             </div>
           </div>
-        </section>
-        <section id="fa">
-          <div className="flex justify-center py-60">
-            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-              <div className="mt-10 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
-                <Image src={img5} />
-              </div>
-              <div className="mt-16 mb-10 lg:w-[610px] mr-8" data-aos="fade-left" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD]">FLOW AUTOMATION</p>
-                <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu masih hobi ngerjain administrasi berulang?</h1>
-                <p className="font-[400] text-[18px] lg:w-[550px] ">Biarkan proses administrasi manual dan tumpukan dokumen fisik menjadi cerita dan kenangan lama (jangan yang lain-lain ya)</p>
-                <button className="w-[170px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ayo buat cerita baru!</button>
-              </div>
+        </div>
+        <div className="flex justify-center py-60" id="fa">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className="mt-10 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+              <Image src={img5} />
+            </div>
+            <div className="mt-16 mb-10 lg:w-[610px] mr-8" data-aos="fade-left" data-aos-duration="1000">
+              <p className="font-[400] text-[12px] text-[#1DC0AD]">FLOW AUTOMATION</p>
+              <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu masih hobi ngerjain administrasi berulang?</h1>
+              <p className="font-[400] text-[18px] lg:w-[550px] ">Biarkan proses administrasi manual dan tumpukan dokumen fisik menjadi cerita dan kenangan lama (jangan yang lain-lain ya)</p>
+              <button className="w-[170px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Ayo buat cerita baru!</button>
             </div>
           </div>
-        </section>
-        <section>
-          <div className="flex justify-center background  py-60" id="bda">
-            <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-              <div className=" order-last lg:mt-10 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                <Image src={img6} />
-              </div>
-              <div className="mt-16 mb-10 lg:w-[590px]" data-aos="fade-right" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD]">BRANDING & DIGITAL ADS</p>
-                <h1 className="text-[48px] font-[900] leading-[65.47px]">Ingin berkomunikasi lebih baik dengan konsumen?</h1>
-                <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan dengan konsumen. Mau tahu lebih?</p>
-                <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Mau dong!</button>
-              </div>
+        </div>
+        <div className="flex justify-center bg py-60" id="bda">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
+            <div className=" order-last lg:mt-10 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+              <Image src={img6} />
+            </div>
+            <div className="mt-16 mb-10 lg:w-[590px]" data-aos="fade-right" data-aos-duration="1000">
+              <p className="font-[400] text-[12px] text-[#1DC0AD]">BRANDING & DIGITAL ADS</p>
+              <h1 className="text-[48px] font-[900] leading-[65.47px]">Ingin berkomunikasi lebih baik dengan konsumen?</h1>
+              <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan dengan konsumen. Mau tahu lebih?</p>
+              <button className="w-[100px] h-[40px] rounded-[8px] bg-[#1DC0AD] text-white mt-20 text-[14px]">Mau dong!</button>
             </div>
           </div>
-        </section>
-        <div className="flex justify-center text-center  pb-20">
+        </div>
+        <div className="flex justify-center text-center pb-20">
           <div className="lg:w-[450px] w-[350px]">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
               <Image src={img7} />

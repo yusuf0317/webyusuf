@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 import Button from "./Button";
 import { useRouter } from "next/router";
 import Head from "next/head";

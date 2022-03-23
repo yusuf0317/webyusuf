@@ -6,11 +6,9 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
   font-family: "Nunito", sans-serif;
 }
-.background {
+.bg {
   background: rgba(29, 192, 173, 0.05);
 }
 .wrapper::-webkit-scrollbar {
   width: 0;
-}
-.harf {
 }
