@@ -29,50 +29,61 @@ function About() {
       </Head>
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="flex justify-center">
-          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between">
-            <div className="lg:w-[600px] md:w-[650px] sm:w-[350px]">
-              <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
-                <div className="leading-[40px]">
-                  <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua, dan sadar bahwa</span>
-                  <span className="font-[900] text-[34px]"> kami dapat membuat perubahan dengan memberikan layanan teknologi yang berkualitas</span>
+        <div className="flex justify-center mt-40">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
+            <div className=" lg:flex justify-between">
+              <div className="lg:w-[600px] md:w-[650px] sm:w-[350px]">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                  <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3">OUR BELIEF</p>
+                  <div className="leading-[40px]">
+                    <span className="font-[300] text-[34px]">Kami percaya pada pemberdayaan teknologi untuk semua, dan sadar bahwa</span>
+                    <span className="font-[900] text-[34px]"> kami dapat membuat perubahan dengan memberikan layanan teknologi yang berkualitas</span>
+                  </div>
+                </div>
+                <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                <div>
+                  <div className="mt-7" data-aos="fade-left" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img2} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Siapa yang kami bantu?</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Dari usaha kecil, menengah, sampai dengan besar yang mencari teknologi dalam pekembangan dan efisiensi bisnis. Kami bertujuan untuk menjadi rekan strategis, jangka panjang yang dapat mewujudkan kebutuhan dan juga
+                      menjadi lawan diskusi dari para rekan kami.
+                    </p>
+                  </div>
+                  <div className="mt-7" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img3} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Apa yang kamu percayai</p>
+                    <p className="text-[14px] font-[400] mt-2">Bekerjalah dengan sepenuh hati integritas untuk memberikan hasil yang terbaik, karena kesuksesan rekan kami akan menjadi pendiri kita untuk bisa lebih berkembang juga</p>
+                  </div>
                 </div>
               </div>
-              <span className="border-b-4 border-[#1DC0AD] px-5"></span>
-              <div>
-                <div className="mt-7" data-aos="fade-left" data-aos-duration="1000">
-                  <div className="mb-2">
-                    <Image src={img2} />
-                  </div>
-                  <p className="font-[900] text-[18px]">Siapa yang kami bantu?</p>
-                  <p className="text-[14px] font-[400] mt-2">
-                    Dari usaha kecil, menengah, sampai dengan besar yang mencari teknologi
-                    <br />
-                    dalam pekembangan dan efisiensi bisnis. Kami bertujuan untuk menjadi
-                    <br />
-                    rekan strategis, jangka panjang yang dapat mewujudkan kebutuhan dan
-                    <br />
-                    juga menjadi lawan diskusi dari para rekan kami.
-                  </p>
-                </div>
-                <div className="mt-7" data-aos="fade-right" data-aos-duration="1000">
-                  <div className="mb-2">
-                    <Image src={img3} />
-                  </div>
-                  <p className="font-[900] text-[18px]">Apa yang kamu percayai</p>
-                  <p className="text-[14px] font-[400] mt-2">
-                    Bekerjalah dengan sepenuh hati integritas untuk memberikan hasil yang
-                    <br />
-                    terbaik, karena kesuksesan rekan kami akan menjadi pendiri kita untuk
-                    <br />
-                    bisa lebih berkembang juga
-                  </p>
-                </div>
+              <div data-aos="zoom-in" data-aos-duration="1000">
+                <Image src={img1} />
               </div>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1000">
-              <Image src={img1} />
+            <div className="flex justify-center">
+              <div className="text-center -mt-20 mb-28 w-[450px]">
+                <div className="mb-7" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                  <Image src={img4} />
+                </div>
+                <div className="text-center">
+                  <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-right" data-aos-duration="1000">
+                    Apakah kamu siap?
+                  </h1>
+                  <p data-aos="fade-left" data-aos-duration="1000">
+                    Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi
+                  </p>
+                </div>
+                <div className="mt-14">
+                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]" data-aos="zoom-in" data-aos-duration="1000">
+                    Hubungi Kami
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
