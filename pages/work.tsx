@@ -64,7 +64,10 @@ function Work() {
                         Komunikasi dan transparasi adalah fondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
                       </p>
                     </div>
-                    <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+
+                    <div data-aos="zoom-in-down" data-aos-duration="1000">
+                      <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                    </div>
                     <div className="flex flex-wrap">
                       <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
                         <div className="mb-2">
@@ -113,7 +116,7 @@ function Work() {
             <div className="flex justify-center bg">
               <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-28">
                 <div className="lg:flex justify-between md:flex-none">
-                  <div className="md:order-last pb-10 mr-20" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="md:order-last pb-10 lg:mr-20" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img5} />
                   </div>
                   <div className="md:order-last lg:w-[630px]">
@@ -127,10 +130,12 @@ function Work() {
                         <span className="font-[900] text-[48px]">sepenuh hati</span>
                       </div>
                       <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                        membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami. Kami suka (dengan penuh hasrat)membangun solusi luar biasa untuk orang-orang luar biasa!
+                        membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami. Kami suka (dengan penuh hasrat) membangun solusi luar biasa untuk orang-orang luar biasa!
                       </p>
                     </div>
-                    <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                    <div data-aos="zoom-in-down" data-aos-duration="1000">
+                      <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                    </div>
                     <div className="flex flex-wrap">
                       <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
                         <div className="mb-2">
@@ -179,7 +184,7 @@ function Work() {
             <div className="flex justify-center">
               <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-40">
                 <div className="lg:flex justify-between md:flex-none">
-                  <div className="md:order-last pb-10 mr-20 ml-20 lg:-mt-10" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="md:order-last pb-10  lg:ml-20 lg:-mt-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img6} />
                   </div>
                   <div className="lg:w-[600px] md:w-[600px] sm:w-[500px] w-[350px] mb-10 mr-14">
@@ -202,7 +207,7 @@ function Work() {
             <div className="flex justify-center bg">
               <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-16">
                 <div className="lg:flex justify-between md:flex-none">
-                  <div className="pb-10 mr-20 ml-20 lg:mt-16" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="pb-10 mr-20 ml-20 lg:mt-16 bg-red-200" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img7} />
                   </div>
                   <div>
@@ -218,7 +223,9 @@ function Work() {
                         Kami tidak akan pernah berhenti belajar bahasa dan teknologi terbaru agar dapat memberikan solusi yang terbaik bagi kamu
                       </p>
                     </div>
-                    <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                    <div data-aos="zoom-in-down" data-aos-duration="1000">
+                      <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                    </div>
                     <div className="mt-7 lg:flex sm:block">
                       <div className="mr-14">
                         <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">

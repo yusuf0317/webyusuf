@@ -31,7 +31,7 @@ function Contact() {
           <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:flex-none">
-              <div className="md:order-last pb-10 flex justify-center" data-aos="zoom-out" data-aos-duration="1000">
+              <div className="md:order-last pb-10 flex justify-center lg:-mt-0 -mt-16 mb-10" data-aos="zoom-out" data-aos-duration="1000">
                 <Image src={img1} />
               </div>
               <div className="flex justify-center">
