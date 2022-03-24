@@ -51,7 +51,10 @@ const Home = () => {
           <div className=" lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
             <div className="lg:flex justify-between md:block mt-32 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
-              <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] " data-aos="zoom-out-down" data-aos-duration="1000">
+              <div className="order-last lg:pt-10 pt-3 pb-10 relative z-50 flex justify-center" data-aos="zoom-in" data-aos-duration="1000">
+                <Image src={heading} />
+              </div>
+              <div className="lg:mt-28 md:mt-14 lg:text-left mb-10 lg:w-[520px] sm:w-[500px] " data-aos="zoom-in" data-aos-duration="1000">
                 <p className="text-[24px]">
                   <span className="font-[400]">Kami adalah</span>{" "}
                   <span className="font-[700] text-[#1DC0AD]" style={{ fontFamily: "Montserrat Alternates" }}>
@@ -65,14 +68,11 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="pt-10 relative z-50 flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
-                <Image src={heading} />
-              </div>
             </div>
             <div className="pt-48 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]" id="one">
               <div className="text-center">
                 <span className="border-t-4 border-[#1DC0AD] px-5"></span>
-                <h1 className="text-[48px] -mt-6 font-[900]" data-aos="zoom-out-up" data-aos-duration="1000">
+                <h1 className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in" data-aos-duration="1000">
                   Solusi Kami
                 </h1>
               </div>
@@ -107,12 +107,12 @@ const Home = () => {
             <div className="pt-48 lg:w-[1100px]" id="two">
               <div className="text-center mb-20">
                 <span className="border-t-4 border-[#1DC0AD] px-5"></span>
-                <h1 className="text-[48px] -mt-6 font-[900]" data-aos="zoom-out-up" data-aos-duration="1000">
+                <h1 className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in" data-aos-duration="1000">
                   Klien Kami
                 </h1>
               </div>
               <div className="mt-10">
-                <div className="flex flex-wrap lg:justify-center md:justify-center sm:justify-center justify-center">
+                <div className="flex flex-wrap justify-center">
                   <div className="mb-20 mx-10" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img7} />
                   </div>
@@ -153,20 +153,16 @@ const Home = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="lg:w-[450px] w-[350px]">
+              <div className="lg:w-[450px] w-[350px] pb-20">
                 <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
                   <Image src={img19} />
                 </div>
-                <div className="text-center">
-                  <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-up" data-aos-duration="1000">
-                    Apakah kamu siap?
-                  </h1>
-                  <p data-aos="fade-up" data-aos-duration="1000">
-                    Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi
-                  </p>
+                <div className="text-center" data-aos="fade-up" data-aos-duration="1000">
+                  <h1 className="text-[48px] -mt-6 font-[900]">Apakah kamu siap?</h1>
+                  <p>Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi</p>
                 </div>
                 <div className="mt-14 flex justify-center">
-                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]" data-aos="zoom-in" data-aos-duration="1000">
+                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]" data-aos="fade-up" data-aos-duration="1000">
                     Hubungi Kami
                   </button>
                 </div>

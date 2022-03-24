@@ -65,7 +65,7 @@ function About() {
             </div>
             <div className="flex justify-center">
               <div className="lg:w-[450px] w-[350px]">
-                <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
+                <div className="mb-7 flex justify-center" data-aos="fade-up" data-aos-duration="1000">
                   <Image src={img4} />
                 </div>
                 <div className="text-center">

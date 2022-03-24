@@ -69,13 +69,13 @@ function Solution() {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center" id="web">
-          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[500px] bg-red-300 lg:flex justify-between md:flex-none pt-64 pb-60 -mt-[50px]">
-            <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+        <div className="flex justify-center -mt-28" id="web">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none pt-80 pb-72">
+            <div className="flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
               <Image src={img1} />
             </div>
             <div className="mr-16">
-              <div className="mt-16 mb-10 lg:w-[570px]" data-aos="fade-left" data-aos-duration="1000">
+              <div className="mt-16 mb-10 lg:w-[570px] md:w-[570px] sm:w-[500px] w-[350px]" data-aos="zoom-in-down" data-aos-duration="1000">
                 <p className="font-[400] text-[12px] text-[#1DC0AD]">WEB DEVELOPMENT</p>
                 <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu siap untuk punya website?</h1>
                 <p className="font-[400] text-[18px] ">Tuangkan segala ide yang kamu simpan selama ini untuk website kamu, saatnya kita buat itu semua jadi kenyataan</p>
@@ -86,10 +86,10 @@ function Solution() {
         </div>
         <div className="bg flex justify-center" id="app">
           <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between py-60">
-            <div className=" order-last mt-5 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+            <div className=" order-last mt-5 flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
               <Image src={img2} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[700px] mr-16" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[700px] md:w-[700px] sm:w-[500px] w-[350px] mr-16" data-aos="zoom-in-down" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">APP DEVELOPMENT</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">"Bangun Aplikasi itu susah", kata mereka, bukan kami</h1>
               <p className="font-[400] text-[18px] ">Saat ini (hampir) semua orang itu pasti memiliki ponsel dan akan selalu membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
@@ -98,11 +98,11 @@ function Solution() {
           </div>
         </div>
         <div className="flex justify-center" id="ui">
-          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between  py-60">
-            <div className="mt-10 mr-16 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between py-60">
+            <div className="mt-10 mr-16 flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
               <Image src={img3} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[670px]" data-aos="fade-left" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[670px] md:w-[670px] sm:w-[500px] w-[350px]" data-aos="zoom-in-down" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">UI/UX DESIGN</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Website / aplikasi dengan tampilan "lama", masih?</h1>
               <p className="font-[400] text-[18px] ">Apa yang dilihat pertama kali oleh pengunjung ketika mereka membuka sesuatu website/aplikasi? Jelas penampilannya dan kemudian penggunaanya</p>
@@ -110,12 +110,12 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center" id="ml">
-          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between bg py-60">
-            <div className=" flex justify-center order-last lg:mt-10" data-aos="fade-left" data-aos-duration="1000">
+        <div className="flex justify-center bg" id="ml">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between py-60">
+            <div className=" flex justify-center order-last lg:mt-10" data-aos="zoom-in-down" data-aos-duration="1000">
               <Image src={img4} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[585px] mr-10" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[585px] md:w-[585px] sm:w-[500px] w-[350px] mr-10" data-aos="zoom-in-down" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">MEACHING LEARNING</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Buat mesin bekerja untuk kamu, bukan sebaliknya</h1>
               <p className="font-[400] text-[18px] lg:w-[580px]">Rasanya ingin mengajarkan mesin untuk bekerja dengan sendirinya tanpa perlu ada kerjaan tambahan ?</p>
@@ -125,10 +125,10 @@ function Solution() {
         </div>
         <div className="flex justify-center" id="fa">
           <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between py-60">
-            <div className="mt-10 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-10 flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
               <Image src={img5} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[610px] mr-8" data-aos="fade-left" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[610px] md:w-[610px] sm:w-[500px] w-[350px] mr-8" data-aos="zoom-in-down" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">FLOW AUTOMATION</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Kamu masih hobi ngerjain administrasi berulang?</h1>
               <p className="font-[400] text-[18px] lg:w-[550px] ">Biarkan proses administrasi manual dan tumpukan dokumen fisik menjadi cerita dan kenangan lama (jangan yang lain-lain ya)</p>
@@ -138,10 +138,10 @@ function Solution() {
         </div>
         <div className="flex justify-center bg" id="bda">
           <div className="lg:w-[1024px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between  py-60">
-            <div className=" order-last lg:mt-10 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+            <div className=" order-last lg:mt-10 flex justify-center" data-aos="zoom-in-down" data-aos-duration="1000">
               <Image src={img6} />
             </div>
-            <div className="mt-16 mb-10 lg:w-[590px]" data-aos="fade-right" data-aos-duration="1000">
+            <div className="mt-16 mb-10 lg:w-[590px] md:w-[590px] sm:w-[500px] w-[350px]" data-aos="zoom-in-down" data-aos-duration="1000">
               <p className="font-[400] text-[12px] text-[#1DC0AD]">BRANDING & DIGITAL ADS</p>
               <h1 className="text-[48px] font-[900] leading-[65.47px]">Ingin berkomunikasi lebih baik dengan konsumen?</h1>
               <p className="font-[400] text-[18px] ">Nama usaha kamu (asosiasi dan kredibilasnya) dan iklan sangat penting dalam membangun hubungan dengan konsumen. Mau tahu lebih?</p>
@@ -149,20 +149,22 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-center pb-20">
+        <div className="flex justify-center mb-20">
           <div className="lg:w-[450px] w-[350px]">
-            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+            <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
               <Image src={img7} />
             </div>
-            <h1 className="text-[48px] font-[900]" data-aos="fade-right" data-aos-duration="1000">
-              Apakah kamu siap?
-            </h1>
-            <p data-aos="fade-left" data-aos-duration="1000">
-              Beritahu kami apa yang mau kamu bangun atau kesulitan apa yang kamu hadapi
-            </p>
-            <button className="w-[150px] h-[55.4px] border border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20" data-aos="zoom-in" data-aos-duration="1000">
-              Hubungi Kami
-            </button>
+            <div className="text-center">
+              <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-up" data-aos-duration="1000">
+                Apakah kamu siap?
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi
+              </p>
+            </div>
+            <div className="mt-14 flex justify-center" data-aos="fade-up" data-aos-duration="1000">
+              <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]">Hubungi Kami</button>
+            </div>
           </div>
         </div>
       </Layout>
