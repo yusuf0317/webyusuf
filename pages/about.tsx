@@ -44,8 +44,8 @@ function About() {
                 <div className="mb-2">
                   <Image src={img2} />
                 </div>
-                <p className="">Siapa yang kami bantu?</p>
-                <p className="">
+                <p className="font-[900] text-[18px]">Siapa yang kami bantu?</p>
+                <p className="text-[14px] font-[400] mt-2">
                   Dari usaha kecil, menengah, sampai dengan besar yang mencari teknologi
                   <br />
                   dalam pekembangan dan efisiensi bisnis. Kami bertujuan untuk menjadi
@@ -59,8 +59,8 @@ function About() {
                 <div className="mb-2">
                   <Image src={img3} />
                 </div>
-                <p className="">Apa yang kamu percayai</p>
-                <p className="">
+                <p className="font-[900] text-[18px]">Apa yang kamu percayai</p>
+                <p className="text-[14px] font-[400] mt-2">
                   Bekerjalah dengan sepenuh hati integritas untuk memberikan hasil yang
                   <br />
                   terbaik, karena kesuksesan rekan kami akan menjadi pendiri kita untuk
