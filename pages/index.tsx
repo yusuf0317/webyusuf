@@ -72,7 +72,7 @@ const Home = () => {
             <div className="pt-48 lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]" id="one">
               <div className="text-center">
                 <div data-aos="zoom-in-down" data-aos-duration="1000">
-                  <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                  <span className="border-t-4 border-[#1DC0AD] px-5"></span>
                 </div>
                 <h1 className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in" data-aos-duration="1000">
                   Solusi Kami
@@ -109,7 +109,7 @@ const Home = () => {
             <div className="pt-48 lg:w-[1100px]" id="two">
               <div className="text-center mb-20">
                 <div data-aos="zoom-in-down" data-aos-duration="1000">
-                  <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                  <span className="border-t-4 border-[#1DC0AD] px-5"></span>
                 </div>
                 <h1 className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in" data-aos-duration="1000">
                   Klien Kami
