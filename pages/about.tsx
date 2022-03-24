@@ -69,6 +69,9 @@ function About() {
                 </p>
               </div>
             </div>
+            <div data-aos="zoom-in" data-aos-duration="1000">
+              <Image src={img1} />
+            </div>
           </div>
         </div>
       </Layout>

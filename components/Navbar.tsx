@@ -24,7 +24,7 @@ export const Navbar = () => {
       </Head>
       <div className="shadow-md fixed top-0 w-full bg-white z-[100] font-[700]">
         <div className="w-full flex justify-center">
-          <div className="flex justify-center items-center lg:h-[100px] md:h-[80px] sm:h-[80px] h-[80px] lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[500px]">
+          <div className="flex justify-center items-center lg:h-[100px] md:h-[80px] sm:h-[80px] h-[80px] lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className="flex items items-center justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
                 <Link href="/">
