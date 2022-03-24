@@ -29,7 +29,7 @@ function About() {
       </Head>
       <Layout>
         <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-        <div className="flex justify-center mt-40">
+        <div className="flex justify-center">
           <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
             <div className=" lg:flex justify-between">
               <div className="lg:w-[600px] md:w-[650px] sm:w-[350px]">
