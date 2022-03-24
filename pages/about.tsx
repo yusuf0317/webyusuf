@@ -39,7 +39,7 @@ function About() {
               </div>
             </div>
             <span className="border-b-4 border-[#1DC0AD] px-5"></span>
-            <div>
+            <div className="lg:flex justify-between">
               <div className="mt-7" data-aos="fade-left" data-aos-duration="1000">
                 <div className="mb-2">
                   <Image src={img2} />
@@ -71,6 +71,22 @@ function About() {
             </div>
             <div data-aos="zoom-in" data-aos-duration="1000">
               <Image src={img1} />
+            </div>
+          </div>
+          <div className="text-center">
+            <div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <Image src={img4} />
+              </div>
+              <h1 className="text-[48px] font-[900]" data-aos="fade-right" data-aos-duration="1000">
+                Apakah kamu siap?
+              </h1>
+              <p data-aos="fade-left" data-aos-duration="1000">
+                Beritahu kami apa yang mau kamu bangun atau kesulitan apa yang kamu hadapi
+              </p>
+              <button className="w-[150px] h-[55.4px] border border-[#1DC0AD] rounded-[10px] text-[18px] text-[#1DC0AD] my-20" data-aos="zoom-in" data-aos-duration="1000">
+                Hubungi Kami
+              </button>
             </div>
           </div>
         </div>
