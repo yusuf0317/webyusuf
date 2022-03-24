@@ -207,7 +207,7 @@ function Work() {
             <div className="flex justify-center bg">
               <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-16">
                 <div className="lg:flex justify-between md:flex-none">
-                  <div className="pb-10 mr-20 ml-20 lg:mt-16 bg-red-200" data-aos="zoom-out" data-aos-duration="1000">
+                  <div className="pb-10 lg:mr-24 lg:mt-16" data-aos="zoom-out" data-aos-duration="1000">
                     <Image src={img7} />
                   </div>
                   <div>
@@ -279,7 +279,9 @@ function Work() {
             <div className="flex justify-center">
               <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] pt-40">
                 <div className="text-center mb-20">
-                  <span className="border-t-4 border-[#1DC0AD] px-5"></span>
+                  <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <span className="border-t-4 border-[#1DC0AD] px-5"></span>
+                  </div>
                   <p className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in-down" data-aos-duration="1000">
                     Alat Kolaborasi
                   </p>
