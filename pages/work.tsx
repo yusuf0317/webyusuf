@@ -41,353 +41,346 @@ function Work() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       </Head>
       <Layout>
-        <div>
-          <div>
-            <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
-            <div className="flex justify-center" id="web">
-              <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none pt-48 pb-20">
-                <div className="lg:flex justify-between md:flex-none">
-                  <div className="md:order-last pb-10 lg:ml-32 lg:mt-10" data-aos="zoom-out" data-aos-duration="1000">
-                    <Image src={img4} />
-                  </div>
-                  <div>
-                    <div>
-                      <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
-                        COLLABORATIUM
-                      </p>
-                      <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <span className="font-[300] text-[48px]">Kami suka</span>
-                        <br />
-                        <span className="font-[900] text-[48px]">berkolaborasi</span>
-                      </div>
-                      <p className="font-[400] text-[18px] mt-5 lg:w-[500px]" data-aos="zoom-in-down" data-aos-duration="1000">
-                        Komunikasi dan transparasi adalah fondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
-                      </p>
-                    </div>
-
-                    <div data-aos="zoom-in-down" data-aos-duration="1000">
-                      <span className="border-b-4 border-[#1DC0AD] px-5"></span>
-                    </div>
-                    <div className="flex flex-wrap">
-                      <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <div className="mb-2">
-                          <Image src={img1} />
-                        </div>
-                        <p className="font-[900] text-[18px]">Perencanaan Proyek</p>
-                        <p className="text-[14px] font-[400] mt-2">
-                          Membahas perencanaan
-                          <br />
-                          pengembangan kebutuhan
-                          <br />
-                          kamu yang transparan
-                        </p>
-                      </div>
-                      <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <div className="mb-2">
-                          <Image src={img2} />
-                        </div>
-                        <p className="font-[900] text-[18px]">Laporan Eksekutif</p>
-                        <p className="text-[14px] font-[400] mt-2">
-                          Dapatkan laporan berkala
-                          <br />
-                          mengenai pengembangan
-                          <br />
-                          yang telah dikerjakan
-                        </p>
-                      </div>
-                      <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <div className="mb-2">
-                          <Image src={img3} />
-                        </div>
-                        <p className="font-[900] text-[18px]">Komunikasi Rutin</p>
-                        <p className="text-[14px] font-[400] mt-2">
-                          Kami siap menjawab semua
-                          <br />
-                          pertanyaan dan memberikan
-                          <br />
-                          informasi yang kamu butuhkan
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <ScrollToTop smooth color="#1DC0AD" style={{ paddingLeft: "6px" }} />
+        <div className="flex justify-center" id="web">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none pt-48 pb-20">
+            <div className="lg:flex justify-between md:flex-none">
+              <div className="md:order-last pb-10 lg:ml-32 lg:mt-10" data-aos="zoom-out" data-aos-duration="1000">
+                <Image src={img4} />
               </div>
-            </div>
-            <div className="flex justify-center bg">
-              <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-28">
-                <div className="lg:flex justify-between md:flex-none">
-                  <div className="md:order-last pb-10 lg:mr-20" data-aos="zoom-out" data-aos-duration="1000">
-                    <Image src={img5} />
+              <div>
+                <div>
+                  <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
+                    COLLABORATIUM
+                  </p>
+                  <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <span className="font-[300] text-[48px]">Kami suka</span>
+                    <br />
+                    <span className="font-[900] text-[48px]">berkolaborasi</span>
                   </div>
-                  <div className="md:order-last lg:w-[630px]">
-                    <div>
-                      <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
-                        PASSION
-                      </p>
-                      <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <span className="font-[300] text-[48px]">Kami membangun dengan</span>
-                        <br />
-                        <span className="font-[900] text-[48px]">sepenuh hati</span>
-                      </div>
-                      <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                        membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami. Kami suka (dengan penuh hasrat) membangun solusi luar biasa untuk orang-orang luar biasa!
-                      </p>
-                    </div>
-                    <div data-aos="zoom-in-down" data-aos-duration="1000">
-                      <span className="border-b-4 border-[#1DC0AD] px-5"></span>
-                    </div>
-                    <div className="flex flex-wrap">
-                      <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
-                        <div className="mb-2">
-                          <Image src={img14} />
-                        </div>
-                        <p className="font-[900] text-[18px]">Kualitas Kode</p>
-                        <p className="text-[14px] font-[400] mt-2">
-                          Memberiakan Kode
-                          <br />
-                          berkualitas baik yang telah
-                          <br />
-                          kami tinjau dan uji
-                        </p>
-                      </div>
-                      <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
-                        <div className="mb-2">
-                          <Image src={img15} />
-                        </div>
-                        <p className="font-[900] text-[18px]">Tes Otomatis</p>
-                        <p className="text-[14px] font-[400] mt-2">
-                          Melakukan rangkaian tes
-                          <br />
-                          otomatis dengan solusi
-                          <br />
-                          internasional
-                        </p>
-                      </div>
-                      <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
-                        <div className="mb-2">
-                          <Image src={img16} />
-                        </div>
-                        <p className="font-[900] text-[18px]">Selalu Terkini</p>
-                        <p className="text-[14px] font-[400] mt-2">
-                          Membangun solusi kamu
-                          <br />
-                          dengan teknologi dan
-                          <br />
-                          informasi terkini
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <p className="font-[400] text-[18px] mt-5 lg:w-[500px]" data-aos="zoom-in-down" data-aos-duration="1000">
+                    Komunikasi dan transparasi adalah fondasi dari hubungan jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol dan gali lebih dalam lagi kebutuhan kamu!
+                  </p>
                 </div>
-              </div>
-            </div>
-            <div className="flex justify-center">
-              <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-40">
-                <div className="lg:flex justify-between md:flex-none">
-                  <div className="md:order-last pb-10  lg:ml-20 lg:-mt-10" data-aos="zoom-out" data-aos-duration="1000">
-                    <Image src={img6} />
-                  </div>
-                  <div className="lg:w-[600px] md:w-[600px] sm:w-[500px] w-[350px] mb-10 mr-14">
-                    <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
-                      CLEAN CODE
-                    </p>
-                    <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
-                      <span className="font-[300] text-[48px]">Kami percaya dengan </span>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                  <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                </div>
+                <div className="flex flex-wrap">
+                  <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img1} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Perencanaan Proyek</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Membahas perencanaan
                       <br />
-                      <span className="font-[900] text-[48px]">kode yang bersih</span>
+                      pengembangan kebutuhan
+                      <br />
+                      kamu yang transparan
+                    </p>
+                  </div>
+                  <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img2} />
                     </div>
-                    <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                      Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan berwarna yang menumpuk - kami belajar dari pengalaman. Fokus kami adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya akan
-                      membuat tenang tim IT kamu juga) demi produk yang berjangka panjang dan dapat selalu dikembangkan.
+                    <p className="font-[900] text-[18px]">Laporan Eksekutif</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Dapatkan laporan berkala
+                      <br />
+                      mengenai pengembangan
+                      <br />
+                      yang telah dikerjakan
+                    </p>
+                  </div>
+                  <div className="mt-7 mr-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img3} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Komunikasi Rutin</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Kami siap menjawab semua
+                      <br />
+                      pertanyaan dan memberikan
+                      <br />
+                      informasi yang kamu butuhkan
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex justify-center bg">
-              <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-16">
-                <div className="lg:flex justify-between md:flex-none">
-                  <div className="pb-10 lg:mr-24 lg:mt-16" data-aos="zoom-out" data-aos-duration="1000">
-                    <Image src={img7} />
+          </div>
+        </div>
+        <div className="flex justify-center bg">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-28">
+            <div className="lg:flex justify-between md:flex-none">
+              <div className="md:order-last pb-10 lg:mr-20" data-aos="zoom-out" data-aos-duration="1000">
+                <Image src={img5} />
+              </div>
+              <div className="md:order-last lg:w-[630px]">
+                <div>
+                  <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
+                    PASSION
+                  </p>
+                  <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <span className="font-[300] text-[48px]">Kami membangun dengan</span>
+                    <br />
+                    <span className="font-[900] text-[48px]">sepenuh hati</span>
+                  </div>
+                  <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                    membangun sesuatu bukan hanya merupakan sebuah pekerjaan bagi kami. Kami suka (dengan penuh hasrat) membangun solusi luar biasa untuk orang-orang luar biasa!
+                  </p>
+                </div>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                  <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                </div>
+                <div className="flex flex-wrap">
+                  <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img14} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Kualitas Kode</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Memberiakan Kode
+                      <br />
+                      berkualitas baik yang telah
+                      <br />
+                      kami tinjau dan uji
+                    </p>
+                  </div>
+                  <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img15} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Tes Otomatis</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Melakukan rangkaian tes
+                      <br />
+                      otomatis dengan solusi
+                      <br />
+                      internasional
+                    </p>
+                  </div>
+                  <div className="mt-7 mr-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="mb-2">
+                      <Image src={img16} />
+                    </div>
+                    <p className="font-[900] text-[18px]">Selalu Terkini</p>
+                    <p className="text-[14px] font-[400] mt-2">
+                      Membangun solusi kamu
+                      <br />
+                      dengan teknologi dan
+                      <br />
+                      informasi terkini
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-40">
+            <div className="lg:flex justify-between md:flex-none">
+              <div className="md:order-last pb-10  lg:ml-20 lg:-mt-10" data-aos="zoom-out" data-aos-duration="1000">
+                <Image src={img6} />
+              </div>
+              <div className="lg:w-[600px] md:w-[600px] sm:w-[500px] w-[350px] mb-10 mr-14">
+                <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
+                  CLEAN CODE
+                </p>
+                <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
+                  <span className="font-[300] text-[48px]">Kami percaya dengan </span>
+                  <br />
+                  <span className="font-[900] text-[48px]">kode yang bersih</span>
+                </div>
+                <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                  Kode yang bersih dapat berbicara lebih jelas dibandingkan dengan catatan berwarna yang menumpuk - kami belajar dari pengalaman. Fokus kami adalah untuk membangun dengan prinsip kode yang bersih (yang tentunya akan membuat
+                  tenang tim IT kamu juga) demi produk yang berjangka panjang dan dapat selalu dikembangkan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center bg">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] lg:flex justify-between md:flex-none py-16">
+            <div className="lg:flex justify-between md:flex-none">
+              <div className="pb-10 lg:mr-24 lg:mt-16" data-aos="zoom-out" data-aos-duration="1000">
+                <Image src={img7} />
+              </div>
+              <div>
+                <div className="lg:w-[280px]">
+                  <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
+                    TECHNICAL EXPERTISE
+                  </p>
+                  <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <span className="font-[300] text-[48px]">Kemampuan </span>
+                    <span className="font-[900] text-[48px]">teknis kami</span>
+                  </div>
+                  <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
+                    Kami tidak akan pernah berhenti belajar bahasa dan teknologi terbaru agar dapat memberikan solusi yang terbaik bagi kamu
+                  </p>
+                </div>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                  <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                </div>
+                <div className="mt-7 lg:flex sm:block">
+                  <div className="mr-14">
+                    <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Mobile Development</p>
+                      <p className="font-[400] text-[14px]">Flutter, Dart, Kotlin</p>
+                    </div>
+                    <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Framework Backend & Frontend</p>
+                      <p className="font-[400] text-[14px]">
+                        Laravel, Django, Flask, Next JS, Nuxt JS,
+                        <br />
+                        React JS, Vue JS, Angular JS
+                      </p>
+                    </div>
+                    <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Programming Language Development</p>
+                      <p className="font-[400] text-[14px]">PHP, Node JS, Golang, Python, Javascript</p>
+                    </div>
+                    <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Middleware</p>
+                      <p className="font-[400] text-[14px]">Spatial Laravel, JSON Web Token (JWT)</p>
+                    </div>
                   </div>
                   <div>
-                    <div className="lg:w-[280px]">
-                      <p className="font-[400] text-[12px] text-[#1DC0AD] mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
-                        TECHNICAL EXPERTISE
-                      </p>
-                      <div className="leading-[40px]" data-aos="zoom-in-down" data-aos-duration="1000">
-                        <span className="font-[300] text-[48px]">Kemampuan </span>
-                        <span className="font-[900] text-[48px]">teknis kami</span>
-                      </div>
-                      <p className="font-[400] text-[18px] mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
-                        Kami tidak akan pernah berhenti belajar bahasa dan teknologi terbaru agar dapat memberikan solusi yang terbaik bagi kamu
-                      </p>
+                    <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Database</p>
+                      <p className="font-[400] text-[14px]">MySQL, PostgreSQL, Redis DB</p>
                     </div>
-                    <div data-aos="zoom-in-down" data-aos-duration="1000">
-                      <span className="border-b-4 border-[#1DC0AD] px-5"></span>
+                    <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Framework CSS</p>
+                      <p className="font-[400] text-[14px]">Tailwind CSS, Bootstrap 5</p>
                     </div>
-                    <div className="mt-7 lg:flex sm:block">
-                      <div className="mr-14">
-                        <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Mobile Development</p>
-                          <p className="font-[400] text-[14px]">Flutter, Dart, Kotlin</p>
-                        </div>
-                        <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Framework Backend & Frontend</p>
-                          <p className="font-[400] text-[14px]">
-                            Laravel, Django, Flask, Next JS, Nuxt JS,
-                            <br />
-                            React JS, Vue JS, Angular JS
-                          </p>
-                        </div>
-                        <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Programming Language Development</p>
-                          <p className="font-[400] text-[14px]">PHP, Node JS, Golang, Python, Javascript</p>
-                        </div>
-                        <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Middleware</p>
-                          <p className="font-[400] text-[14px]">Spatial Laravel, JSON Web Token (JWT)</p>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Database</p>
-                          <p className="font-[400] text-[14px]">MySQL, PostgreSQL, Redis DB</p>
-                        </div>
-                        <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Framework CSS</p>
-                          <p className="font-[400] text-[14px]">Tailwind CSS, Bootstrap 5</p>
-                        </div>
-                        <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Stack</p>
-                          <p className="font-[400] text-[14px]">MERN, MEVN, MEAN, TALL</p>
-                        </div>
-                        <div className="mb-3" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Notification</p>
-                          <p className="font-[400] text-[14px]">Firebase</p>
-                        </div>
-                        <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                          <p className="text-[18px] text-[#1DC0AD] font-[900]">Design</p>
-                          <p className="font-[400] text-[14px]">Figma, Zeplin</p>
-                        </div>
-                      </div>
+                    <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Stack</p>
+                      <p className="font-[400] text-[14px]">MERN, MEVN, MEAN, TALL</p>
+                    </div>
+                    <div className="mb-3" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Notification</p>
+                      <p className="font-[400] text-[14px]">Firebase</p>
+                    </div>
+                    <div className="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                      <p className="text-[18px] text-[#1DC0AD] font-[900]">Design</p>
+                      <p className="font-[400] text-[14px]">Figma, Zeplin</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] pt-40">
+            <div className="text-center mb-20">
+              <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <span className="border-t-4 border-[#1DC0AD] px-5"></span>
+              </div>
+              <p className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in-down" data-aos-duration="1000">
+                Alat Kolaborasi
+              </p>
+            </div>
             <div className="flex justify-center">
-              <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px] pt-40">
-                <div className="text-center mb-20">
-                  <div data-aos="zoom-in-down" data-aos-duration="1000">
-                    <span className="border-t-4 border-[#1DC0AD] px-5"></span>
+              <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
+                <div className="flex flex-wrap justify-center">
+                  <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <div>
+                      <Image src={img8} />
+                    </div>
+                    <div>
+                      <p className="font-[900] text-[24px] text-[#289FD2]">Telegram</p>
+                      <p className="font-[400] text-[18px]">
+                        for ongoing
+                        <br />
+                        communication
+                        <br />
+                        with the team
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-[48px] -mt-6 font-[900]" data-aos="zoom-in-down" data-aos-duration="1000">
-                    Alat Kolaborasi
-                  </p>
-                </div>
-                <div className="flex justify-center">
-                  <div className="lg:w-[1100px] md:w-[700px] sm:w-[500px] w-[350px]">
-                    <div className="flex flex-wrap justify-center">
-                      <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
-                        <div>
-                          <Image src={img8} />
-                        </div>
-                        <div>
-                          <p className="font-[900] text-[24px] text-[#289FD2]">Telegram</p>
-                          <p className="font-[400] text-[18px]">
-                            for ongoing
-                            <br />
-                            communication
-                            <br />
-                            with the team
-                          </p>
-                        </div>
-                      </div>
-                      <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
-                        <div>
-                          <Image src={img9} />
-                        </div>
-                        <div>
-                          <p className="font-[900] text-[24px] text-[#5059C9]">
-                            Microsoft
-                            <br />
-                            Teams
-                          </p>
-                          <p className="font-[400] text-[18px]">
-                            for video conferencing
-                            <br />
-                            and coordination
-                          </p>
-                        </div>
-                      </div>
-                      <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
-                        <div>
-                          <Image src={img10} />
-                        </div>
-                        <div>
-                          <p className="font-[900] text-[24px] text-[#528FF5]">Google Docs</p>
-                          <p className="font-[400] text-[18px]">
-                            for dynamic
-                            <br />
-                            collaboration n<br />
-                            documentation
-                          </p>
-                        </div>
-                      </div>
-                      <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
-                        <div>
-                          <Image src={img11} />
-                        </div>
-                        <div>
-                          <p className="font-[900] text-[24px] text-[#F24E1E]">Figma</p>
-                          <p className="font-[400] text-[18px]">
-                            for designing and
-                            <br />
-                            presenting the <br />
-                            the mockup design
-                          </p>
-                        </div>
-                      </div>
-                      <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
-                        <div>
-                          <Image src={img12} />
-                        </div>
-                        <div>
-                          <p className="font-[900] text-[24px] text-[#6C10B6]">Whimsical</p>
-                          <p className="font-[400] text-[18px]">
-                            for designing and
-                            <br />
-                            persenting the
-                            <br />
-                            wireframe
-                          </p>
-                        </div>
-                      </div>
+                  <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <div>
+                      <Image src={img9} />
+                    </div>
+                    <div>
+                      <p className="font-[900] text-[24px] text-[#5059C9]">
+                        Microsoft
+                        <br />
+                        Teams
+                      </p>
+                      <p className="font-[400] text-[18px]">
+                        for video conferencing
+                        <br />
+                        and coordination
+                      </p>
+                    </div>
+                  </div>
+                  <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <div>
+                      <Image src={img10} />
+                    </div>
+                    <div>
+                      <p className="font-[900] text-[24px] text-[#528FF5]">Google Docs</p>
+                      <p className="font-[400] text-[18px]">
+                        for dynamic
+                        <br />
+                        collaboration n<br />
+                        documentation
+                      </p>
+                    </div>
+                  </div>
+                  <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <div>
+                      <Image src={img11} />
+                    </div>
+                    <div>
+                      <p className="font-[900] text-[24px] text-[#F24E1E]">Figma</p>
+                      <p className="font-[400] text-[18px]">
+                        for designing and
+                        <br />
+                        presenting the <br />
+                        the mockup design
+                      </p>
+                    </div>
+                  </div>
+                  <div className="py-3 w-[200px] lg:text-left text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <div>
+                      <Image src={img12} />
+                    </div>
+                    <div>
+                      <p className="font-[900] text-[24px] text-[#6C10B6]">Whimsical</p>
+                      <p className="font-[400] text-[18px]">
+                        for designing and
+                        <br />
+                        persenting the
+                        <br />
+                        wireframe
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex justify-center">
-              <div className="lg:w-[450px] w-[350px]">
-                <div className="mb-7 flex justify-center" data-aos="fade-up" data-aos-duration="1000">
-                  <Image src={img13} />
-                </div>
-                <div className="text-center">
-                  <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-up" data-aos-duration="1000">
-                    Apakah kamu siap?
-                  </h1>
-                  <p data-aos="fade-up" data-aos-duration="1000">
-                    Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi
-                  </p>
-                </div>
-                <div className="mt-14 flex justify-center">
-                  <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]" data-aos="zoom-in" data-aos-duration="1000">
-                    Hubungi Kami
-                  </button>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div className="flex justify-center mb-20">
+          <div className="lg:w-[450px] w-[350px]">
+            <div className="mb-7" data-aos="fade-up" data-aos-duration="1000">
+              <Image src={img13} />
+            </div>
+            <div className="text-center">
+              <h1 className="text-[48px] -mt-6 font-[900]" data-aos="fade-up" data-aos-duration="1000">
+                Apakah kamu siap?
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                Beritahu kami apa yang kamu mau bangun atau kesulitan apa yang kamu hadapi
+              </p>
+            </div>
+            <div className="mt-14 flex justify-center" data-aos="fade-up" data-aos-duration="1000">
+              <button className="w-[150px] h-[55.4px] rounded-[10px] border border-[#1DC0AD] text-[#1DC0AD]">Hubungi Kami</button>
             </div>
           </div>
         </div>
